@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color:aquamarine ;
+}
+table{
+  text-align:left;
+  margin: 0px auto;
+}
+#span1 {
+  color:red
+}
+#span2 {
+  color:blue
+}
+#base {
+  font-family:cursive ;
+}
+#base2 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:green;
+  font-style:italic ;
+}
+#base3 {
+  color:purple
+}
+.format {
+  min-height:10vh;
+  text-align:center;
+}
+#menu {
+  position:fixed;
+  top:0;
+  background-color:aquamarine;
+  border-style: dashed;
+  width: 100%;
+  text-align: center;
+}
+#base4{
+  margin:0px auto ;
+}
+#base5 {
+  
+}
+#base6 {
+text-align:center ;
+}
+#Form {
+  text-align:center ;
+  h1 { 
+    text-align:
+ }
+}
