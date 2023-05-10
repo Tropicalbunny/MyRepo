@@ -8,10 +8,12 @@
   </head>
   <body>
     <div id=Form>
-      <form action="https://formdump.codeinstitute.net" method="post">
+      <fieldset>
+        <legend>Your Details</legend>
+      <form action="Placeholder" method="post">
         <label for="firstname"><strong>First Name:</strong></label>
         <br>
-        <input Id="firstname" type="text" placeholder="First name">
+        <input Id="firstname" type="text" placeholder="First name" required>
         <br>
         <label for="surname"><strong>Surname:</strong></label>
         <br>
@@ -19,10 +21,25 @@
         <br>
         <label for="Email"><strong>Email:</strong></label>
         <br>
-        <input id="Email" type="email" placeholder="Email">
+        <input id="Email" type="email" placeholder="Email" required>
         <br>
-        <textarea id="Question" placeholder="Any Questions" cols="50" rows="5"></textarea>
-        <p> this form sends you to the form dump from the course</p>
+        <label For="agerange"><strong>Age:</strong></label>
+        <select id="agerange" name="agerange">
+            <option value="under-20">Under 20</option>
+            <option value="20s">20-29</option>
+            <option value="30s">30-39</option>
+            <option value="40s">40-49</option>
+            <option value="50s">50-59</option>
+            <option value="60+">60+</option>
+        </select>
+      </fieldset>
+        <br>
+        <label for="Question"><strong>Questions:</strong></label>
+        <br>
+        <textarea id="Question" placeholder="Any Questions" cols="50" rows="5" required></textarea>
+        <br>
+        <button type="submit">Send Questions</button>
+        <input type="reset" value="Reset Form">
       </form>
     </div>
   </body>
