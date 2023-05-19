@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <script src="https://kit.fontawesome.com/d94f1f75f6.js" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Playground</title>
@@ -9,16 +10,20 @@
 </head>
 
 <body>
-  <h1 style="text-align:center; color:blue;">Visit England</h1>
-      <p></p>
+  <h1 style="text-align:center; color:rgba(217, 61, 74, 1);">Visit England</h1>
   <!--Nav Bar -->
-  <nav id=menu>
-    <a href="#base">Part 1</a>
-    <a href="#base2">Part 2</a>
-    <a href="#base3">Part 3</a>
-    <a href="#base4">Part 4</a>
-    <a href="#base5">Part 5</a>
-  </nav>
+  <nav id="navbar">
+    <span>
+      <img href="assets\Logo.jpg" id="logo" alt="logo">
+    </span>
+    <span id="menu">
+      <a href="#base">Part 1</a>
+      <a href="#base2">Part 2</a>
+      <a href="#base3">Part 3</a>
+      <a href="#base4">Part 4</a>
+      <a href="#base5">Part 5</a>
+    </span>
+</nav>
   <!-- this part is to show off spans, either side of eachother -->
   <div id=base>
     <h2 class=format>Part 1 "spans"</h2>
@@ -42,77 +47,10 @@
   <div id=base4>
     <h2 class=format>Part 4 Lists</h2>
     <h3>List Time</h3>
-    <table>
-      <td>
-    <ul>
-      <li>one
-        <ul>
-          <li>.2</li>
-          <li>.4</li>
-          <li>.6</li>
-          <li>.8</li>
-        </ul>
-      </li>
-      <li>two
-        <ul>
-          <li>.2</li>
-          <li>.4</li>
-          <li>.6</li>
-          <li>.8</li>
-        </ul>
-      </li>
-      <li>three
-        <ul>
-          <li>.2</li>
-          <li>.4</li>
-          <li>.6</li>
-          <li>.8</li>
-        </ul>
-      </li>
-      <li>four</li>
-      <li>five</li>
-    </ul>
-      </td>
-      <td>
-        <ol>
-          <li>lists are so cool</li>
-          <li>Especially ordered ones</li>
-          <li>do you agree?</li>
-          <li>of course you do!</li>
-        </ol>
-      </td>
-    </table>
   </div>
   <!-- this bit is to show off the use of tables -->
   <div id=base5>
     <h2 class="format">Part 5 Tables</h2>
-    <table>
-      <tr>
-        <th>Person</th>
-        <th>Coolness level</th>
-        <th>Disapointment Level</th>
-      </tr>
-      <tr>
-        <td>Charlie (Me)</td>
-        <td>110%</td>
-        <td>0%</td>
-      </tr>
-      <tr>
-        <td>Josh</td>
-        <td>50%</td>
-        <td>30%</td>
-      </tr>
-      <tr>
-        <td>Renato</td>
-        <td>70%</td>
-        <td>90%</td>
-      </tr>
-      <tr>
-        <td>bob</td>
-        <td>20%</td>
-        <td>300%</td>
-      </tr>
-    </table>
     <div id=base6>
       <h2 class="format">Part 6 Forms</h2>
       <p>Submit to the form......</p>
@@ -120,11 +58,25 @@
         <input type="submit">
       </form>
     </div>
-<footer>
-  <a href="">About us</a>
-  <a href="">Terms and conditions</a>
-  <a href="#base" style="text-align:center;">Back to top</a>
+<footer id="footer">
+  <span id="inside-links">
+    <a href="">About us</a>
+    <a href="">Terms and conditions</a>
+    <a href="#base">Back to top</a>
+  
+  </span>
+  <span id="outside-links">
+    <a href="https://en-gb.facebook.com/" class="fa-brands fa-facebook"></a>
+    
+    <a href="https://twitter.com/?lang=en-gb" class="fa-brands fa-square-twitter twitter"></a>
+    
+    <a href="https://www.linkedin.com/feed/" class="fa-brands fa-linkedin" target="_blank" ></a>
+  </span>
+<div>
+  <p>
   Copyright Penfold Inc' 2023
+  </p>
+</div>
 </footer>
 </body>
 
