@@ -3,13 +3,14 @@ html {
   width: 100%;
   background-color:rgba(242, 242, 242, 1) ;
 }
-#top {
-  text-align:center;
-  background-image: url(IMAG0276.jpg);
-  color:rgba(217, 61, 74, 1);
-  width:100%;
-  height:50%;
+*{
+  Margin:0;
+  padding:0;
+  border:0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 /* Color Theme Swatches in Hex */
 .color-theme_Logo-1-hex { color: #D93D4A; }
 .color-theme_Logo-2-hex { color: #111226; }
@@ -39,10 +40,48 @@ html {
   position:fixed;
   top:0;
   background-color:rgba(228, 230, 242, 1);
-  border:0px;
-  width:100%;
-  padding: 0px 40px;
+  border: 0px;
+  width: 100%;
+  height: 100px;
+  z-index: 3;
+
+}
+#nav-back{
+  background-color:rgba(228, 230, 242, 1);
+  border: 0px;
+  width: 100%;
+  height: 100px;
+}
+#logo {
+  float: left;
+  text-align: center;
+  width: 300px;
+  height: inherit;
   left: 0;
+  color: rgba(217, 61, 74, 1);
+  padding: 10px 0;
+  font-size: 150%;
+  font-family: 'Playfair Display', serif;
+}
+
+#menu {
+  width: 33%;
+  float: right;
+  text-align: right;
+  height: inherit;
+  margin:30px;
+}
+
+#main-hero-container{
+  height: 1000px;
+  Width:100%;
+  position: relative;
+}
+#main-hero{
+height: inherit;
+width:100%;
+Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
+background-size: contain;
 
 }
 #form{
@@ -50,44 +89,44 @@ html {
   text-align:center;
   background-color:rgba(217, 61, 74, .6);
   right: 33%;
-  bottom:100px;
+  bottom:400px;
   position: absolute;
 }
 #form-image-outer{
-    height:600px;
+    height: 1000px;
     Width:100%;
-    overflow: hidden;
     position: relative;
+    clear:both;
 }
 #form-background{
-  height:600px;
+  height: inherit;
   width:100%;
-  Background: url("images\Form-Background.jpg") no-repeat center center;
+  Background: url("../assets/images/Form-Background.jpg") no-repeat center center;
+  background-size: contain;
 
 }
-
-#logo {
-  text-align:left;
-  padding:30px 5px;
-}
-#menu {
-  float:right;
-}
-
 
 #footer {
-background-color: rgba(217, 59, 59, 1);
-padding-bottom: 10px;
-padding-left: 30px;
-padding-top: 10px;
-padding-right:30px;
-left: 0;
+  width:100%;
+  height:100px;
+  background-color: rgba(217, 59, 59, 1);
+  clear:both;
+}
+#footer > span{
+  padding:0 50px;
+  padding-top:30px;
 }
 #outside-links{
-float:right;
-font-size:50px;
-color:rgba(17, 18, 38, 1);
+  text-align: Right;
+  float:right;
+  width:33%;
+  height:inherit;
+  font-size:50px;
+  color:rgba(17, 18, 38, 1);
 }
 #inside-links{
-text-align: left;
+  text-align: left;
+  float:left;
+  width:33%;
+  Height:inherit;
 }
