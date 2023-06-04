@@ -45,6 +45,21 @@ html {
   left: 0;
 
 }
+#form{
+  width:33%;
+  text-align:center;
+  background-color:rgba(217, 61, 74, .6);
+  right: 33%;
+  bottom:100px;
+  position: absolute;
+}
+#form-background{
+  height:600px;
+  width:100%;
+  Background: url("images\Form-Background.jpg") no-repeat center center;
+
+}
+
 #logo {
   text-align:left;
   padding:30px 5px;
@@ -69,8 +84,4 @@ color:rgba(17, 18, 38, 1);
 }
 #inside-links{
 text-align: left;
-}
-
-#Form {
-  text-align:left ;
 }
