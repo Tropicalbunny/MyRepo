@@ -3,6 +3,13 @@ html {
   width: 100%;
   background-color:rgba(242, 242, 242, 1) ;
 }
+#top {
+  text-align:center;
+  background-image: url(IMAG0276.jpg);
+  color:rgba(217, 61, 74, 1);
+  width:100%;
+  height:50%;
+}
 /* Color Theme Swatches in Hex */
 .color-theme_Logo-1-hex { color: #D93D4A; }
 .color-theme_Logo-2-hex { color: #111226; }
@@ -24,17 +31,6 @@ html {
 .color-theme_Logo-4-hsla { color: hsla(0, 67, 54, 1); }
 .color-theme_Logo-5-hsla { color: hsla(0, 0, 94, 1); }
 
-#base {
-  font-family:cursive ;
-}
-#base2 {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:green;
-  font-style:italic ;
-}
-#base3 {
-  color:purple
-}
 .format {
   min-height:10vh;
   text-align:center;
@@ -43,19 +39,20 @@ html {
   position:fixed;
   top:0;
   background-color:rgba(228, 230, 242, 1);
-  border:1px;
-  width: 100%;
-  padding: 30px 40px;
+  border:0px;
+  width:100%;
+  padding: 0px 40px;
+  left: 0;
+
+}
+#logo {
+  text-align:left;
+  padding:30px 5px;
 }
 #menu {
-  float: center;
+  float:right;
 }
-#base4{
-  margin:0px auto ;
-}
-#base6 {
-text-align:center ;
-}
+
 
 #footer {
 background-color: rgba(217, 59, 59, 1);
@@ -63,10 +60,12 @@ padding-bottom: 10px;
 padding-left: 30px;
 padding-top: 10px;
 padding-right:30px;
+left: 0;
 }
 #outside-links{
 float:right;
-font-size:50px
+font-size:50px;
+color:rgba(17, 18, 38, 1);
 }
 #inside-links{
 text-align: left;
