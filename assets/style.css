@@ -53,6 +53,12 @@ html {
   bottom:100px;
   position: absolute;
 }
+#form-image-outer{
+    height:600px;
+    Width:100%;
+    overflow: hidden;
+    position: relative;
+}
 #form-background{
   height:600px;
   width:100%;
