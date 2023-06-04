@@ -31,11 +31,7 @@ html {
 .color-theme_Logo-3-hsla { color: hsla(231, 34, 92, 1); }
 .color-theme_Logo-4-hsla { color: hsla(0, 67, 54, 1); }
 .color-theme_Logo-5-hsla { color: hsla(0, 0, 94, 1); }
-
-.format {
-  min-height:10vh;
-  text-align:center;
-}
+/* nav bar */
 #navbar {
   position:fixed;
   top:0;
@@ -52,6 +48,7 @@ html {
   width: 100%;
   height: 100px;
 }
+
 #logo {
   float: left;
   text-align: center;
@@ -69,43 +66,32 @@ html {
   float: right;
   text-align: right;
   height: inherit;
-  margin:30px;
-}
+  margin:10px;
+  font-size:110%;
 
+  letter-spacing: 2px;
+}
+#menu > ul{
+  list-style-type: none;
+}
+/* end of nav bar start of hero image */
 #main-hero-container{
-  height: 1000px;
+  height: 620px;
   Width:100%;
   position: relative;
 }
 #main-hero{
-height: inherit;
-width:100%;
-Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
-background-size: contain;
-
-}
-#form{
-  width:33%;
-  text-align:center;
-  background-color:rgba(217, 61, 74, .6);
-  right: 33%;
-  bottom:400px;
-  position: absolute;
-}
-#form-image-outer{
-    height: 1000px;
-    Width:100%;
-    position: relative;
-    clear:both;
-}
-#form-background{
   height: inherit;
   width:100%;
-  Background: url("../assets/images/Form-Background.jpg") no-repeat center center;
-  background-size: contain;
-
+  Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
+  overflow:hidden;
 }
 
+
+
+
+
+/* footer Styles */
 #footer {
   width:100%;
   height:100px;
@@ -130,3 +116,28 @@ background-size: contain;
   width:33%;
   Height:inherit;
 }
+
+/*form Page Styles */
+#form{
+  width:33%;
+  text-align:center;
+  background-color:rgba(217, 61, 74, .6);
+  right: 33%;
+  bottom:400px;
+  position: absolute;
+}
+#form-image-outer{
+    height: 1000px;
+    Width:100%;
+    position: relative;
+    clear:both;
+}
+#form-background{
+  height: inherit;
+  width:100%;
+  Background: url("../assets/images/Form-Background.jpg") no-repeat center center;
+  background-size: contain;
+
+}
+
+
