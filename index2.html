@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link href="assets\style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
   <!-- This is the entire form-->
   <body>
@@ -13,17 +15,17 @@
         <div id=form>
             <h2>Your Details</h2>
           <form action="Placeholder" method="post"> 
-            <label for="firstname"><strong>First Name:</strong></label>
-            <input Id="firstname" type="text" placeholder="First name" required>
+            <label for="firstname" class="form-label"><strong>First Name:</strong></label>
+            <input Id="firstname" class="form-control" type="text" placeholder="First name" required>
             <br>
-            <label for="surname"><strong>Surname:</strong></label>
-            <input id="surname" type="text" placeholder="Surname">
+            <label for="surname" class="form-label"><strong>Surname:</strong></label>
+            <input id="surname" class="form-control" type="text" placeholder="Surname">
             <br>
-            <label for="Email"><strong>Email:</strong></label>
-            <input id="Email" type="email" placeholder="Email" required>
+            <label for="Email" class="form-label"><strong>Email:</strong></label>
+            <input id="Email" class="form-control" type="email" placeholder="Email" required>
             <br>
-            <label For="agerange"><strong>Age:</strong></label>
-            <select id="agerange" name="agerange">
+            <label For="agerange" class="form-label"><strong>Age:</strong></label>
+            <select id="agerange" class="form-control" name="agerange">
                 <option value="under-20">Under 20</option>
                 <option value="20">20-29</option>
                 <option value="30">30-39</option>
@@ -34,10 +36,10 @@
             <br>
             <label for="Question"><strong>Questions:</strong></label>
             <br>
-            <textarea id="Question" placeholder="Any Questions" cols="50" rows="5" required></textarea>
+            <textarea id="Question" placeholder="Any Questions" class="form-control" cols="50" rows="5" required></textarea>
             <br>
-            <button type="submit">Send Questions</button>
-            <input type="reset" value="Reset Form">
+            <button type="submit" class="btn btn-dark">Send Questions</button>
+            <input type="reset" value="Reset Form" class="btn btn-dark">
           </form>
         </div>
     </section>

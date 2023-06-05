@@ -123,8 +123,9 @@ html {
   text-align:center;
   background-color:rgba(217, 61, 74, .6);
   right: 33%;
-  bottom:400px;
+  top:100px;
   position: absolute;
+  padding:20px;
 }
 #form-image-outer{
     height: 1000px;
@@ -135,8 +136,9 @@ html {
 #form-background{
   height: inherit;
   width:100%;
-  Background: url("../assets/images/Form-Background.jpg") no-repeat center center;
-  background-size: contain;
+  Background: url("../assets/images/form-back2.jpg") no-repeat center center;
+ /* background-size: contain; */
+  overflow:hidden;
 
 }
 
