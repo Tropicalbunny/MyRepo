@@ -2,8 +2,6 @@ html {
   height: 100%;
   width: 100%;
   background-color:#C0BEBE ;
-  white-space: normal;
-  word-break: break-all;
 }
 *{
   Margin:0;
@@ -45,25 +43,16 @@ html {
     height: inherit;
     width: 100%;
     background: url("../assets/images/Logo.jpg") no-repeat center center; 
+    background-size: contain;
 }
-#menu-container{
-    height:50px ;
-    text-align: center;
-    
+ #menu-container{
+    margin: auto;
+    font-size: 120%;
 }
-#menu {
-    list-style-type: none;
-    text-align: center;
-    display: inline;
+#navbarDropdown{
+    padding-left: 200px;
+    padding-right: 200px;
 }
-
-
-
-
-
-
-
-
 
 /* end of nav bar start of hero image */
 #main-hero-container{
@@ -76,6 +65,12 @@ html {
   width:100%;
   Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
   overflow:hidden;
+}
+#hero-text{
+    width: 680px;
+    height: 200px;
+    background-color: #4a4646c2;
+    border-radius: 30px;
 }
 
 
