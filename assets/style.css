@@ -8,9 +8,6 @@ html {
   padding:0;
   border:0;
 }
-body{
-    background-color: #C0BEBE;
-}
 section{
     background-color: #C0BEBE;
 }
@@ -83,7 +80,7 @@ a:hover {
     background-color: #4a4646c2;
     border-radius: 30px;
     position: relative;
-    left: 50px;
+    left: 10%;
     bottom: 250px;
 }
 .box-text{
@@ -194,6 +191,7 @@ a:hover {
         width: 100%;
         left: 0;
         bottom: 0;
+        margin: 10px;
     }
     .location-box {
         bottom: 0;
