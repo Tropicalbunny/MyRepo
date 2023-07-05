@@ -20,6 +20,8 @@ a:hover {
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
+
+
 /* Color Theme Swatches in Hex */
 .color-theme_Logo-1-hex { color: #D93D4A; }
 .color-theme_Logo-2-hex { color: #A41818; }
@@ -37,6 +39,7 @@ a:hover {
   z-index: 3;
 
 }
+
 #nav-back{
   background-color:#FFFFFF;
   border: 0px;
@@ -58,8 +61,7 @@ a:hover {
     margin: auto;
     font-size: 120%;
 }
-#navbarDropdown{
-    padding-left: 200px;
+.navspacing{
     padding-right: 200px;
 }
 
@@ -132,6 +134,8 @@ a:hover {
     list-style-type: none;
     font-size: 200%;
     color:#FFFFFF ;
+    padding:0;
+    Margin:0;
 }
 #social{
     padding: 0;
@@ -169,3 +173,36 @@ a:hover {
 }
 
 
+@media screen and (max-width: 768px) {
+    .navspacing {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #footer {
+        width: 100%;
+        Height: 350px;
+        display: block;
+    }
+
+    .footer-box {
+        width: 90%;
+        height: 175px;
+        display: block;
+    }
+
+    #hero-text {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+    .location-box {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        }
+}
+@media screen and (max-width: 470px){     
+.small-screen{
+    font-size: 25px;
+}
+}
