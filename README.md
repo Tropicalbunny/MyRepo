@@ -47,6 +47,10 @@ My original idea (above) i had started coding, but while developing i decided th
 above is the basic function of the website, this is how i wanted the website to flow to each webpage. 
 # insert figma screenshots here.
 This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
+#### Issues
+Footer containers not sitting together correctly
+photos in 4k to high quality
+nav bar wouldnt center with text inline
 
 #### Features implemented
 

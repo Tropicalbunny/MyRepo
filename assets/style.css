@@ -11,6 +11,9 @@ html {
 body{
     background-color: #C0BEBE;
 }
+section{
+    background-color: #C0BEBE;
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 /* Color Theme Swatches in Hex */
@@ -103,30 +106,36 @@ body{
 
 /* footer Styles */
 #footer {
-  width:100%;
-  height:100px;
-  background-color: rgba(217, 59, 59, 1);
-  clear:both;
+    width: 100%;
+    Height: 175px;
+    background-color: #A41818;
+    text-align: center;
 }
-#footer > span{
-  padding:0 50px;
-  padding-top:30px;
+.footer-box{
+    width: 45%;
+    height: inherit;
+    display: inline-block;
+    margin: 10px;
 }
 #outside-links{
-  text-align: Right;
-  float:right;
-  width:33%;
-  height:inherit;
-  font-size:50px;
-  color:rgba(17, 18, 38, 1);
+    list-style-type: none;
+    font-size: 200%;
+    color: #FFFFFF;
+
 }
 #inside-links{
-  text-align: left;
-  float:left;
-  width:33%;
-  Height:inherit;
+    list-style-type: none;
+    font-size: 100%;
+    color:#FFFFFF ;
 }
-
+.links{
+    display: inline;
+    padding: 10px;
+}
+#test{
+    display: inline-block;
+    float:none;
+}
 /*form Page Styles */
 #form{
   width:33%;
