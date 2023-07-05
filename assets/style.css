@@ -71,6 +71,14 @@ html {
     height: 200px;
     background-color: #4a4646c2;
     border-radius: 30px;
+    position: relative;
+    left: 50px;
+    bottom: 250px;
+}
+.box-text{
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 200%;
 }
 
 
