@@ -4,7 +4,7 @@
 
 Visit Kent is designed for people who would like to visit kent but are unsure about places to visit or what kent has avaliable.
 
-## 1 UX
+## UX
 
 ---
 
@@ -19,7 +19,7 @@ The main end user goals is to find and visit highly rated locations in kent.
 
 ### Project Goals
 
-The main project goal of this website is to make an easy, user friendly website for all ages. to achieve this, i broke down the goals into achievable milestones.
+The main project goal of this website is to make an easy, user friendly website for all ages. to achieve this, I have broken down the goals into achievable milestones.
 
 - Make an incredibly simple UI so people that have less knowledge to technology can have a pleasant experience
 - Clearly show locations, with images that peak intrest
