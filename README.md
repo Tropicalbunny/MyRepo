@@ -73,8 +73,8 @@ nav bar wouldnt center with text inline
 
 #### Planned Features
 
-*Slideshow gallery
-*Radius search
-*trip-advisor search
-*user reviews
-\*drop down list for locations
+* Slideshow gallery
+* Radius search
+* trip-advisor search
+* user reviews
+* drop down list for locations
