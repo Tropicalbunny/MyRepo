@@ -8,7 +8,9 @@ html {
   padding:0;
   border:0;
 }
-
+body{
+    background-color: #C0BEBE;
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 
 /* Color Theme Swatches in Hex */
@@ -80,9 +82,23 @@ html {
     text-align: center;
     font-size: 200%;
 }
+/* end of hero image */
 
-
-
+/* start of locations */
+.location-box{
+    background-color:rgba(217, 61, 74, .6);
+    border-radius: 30px;
+    width: 500px;
+    height:270px;
+    display: inline-block;
+    padding: 15px;
+    Margin: 10px;
+    position: relative;
+    bottom: 100px;
+}
+.location-body{
+    text-align: center
+}
 
 
 /* footer Styles */
