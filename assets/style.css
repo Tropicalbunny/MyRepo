@@ -61,7 +61,7 @@ a:hover {
     background-color: #FFFFFF;
     border: 0px;
     width: 100%;
-    height: 200px;
+    height: 150px;
     z-index: 3;
 
 }
@@ -71,12 +71,12 @@ a:hover {
     background-color: #FFFFFF;
     border: 0px;
     width: 100%;
-    height: 200px;
+    height: 150px;
 }
 
 /* container for logo manipulation */
 #logo-container {
-    height: 154px;
+    height: 100px;
     Width: 100%;
     position: relative;
 }
@@ -96,7 +96,7 @@ a:hover {
 
 /* spacing off central text */
 .navspacing {
-    padding: 0 200px;
+    padding: 0 150px;
 }
 
 .activesheet {
@@ -148,7 +148,7 @@ a:hover {
 End of hero image start of Location containers
 *********************************************/
 .location-box {
-    background-color: rgba(150, 54, 62, 0.6);
+    background-color: #A07171;
     width: 500px;
     height: 270px;
     display: inline-block;
@@ -172,10 +172,9 @@ End of hero image start of Location containers
  **********************************/
 
 #footer {
-    width: 100%;
     background-color: #A41818;
-    display: flex;
     text-align: center;
+    margin: auto;
 }
 
 /* Footer containers */
@@ -185,9 +184,14 @@ End of hero image start of Location containers
     display: inline-block;
     margin: 10px;
 }
-
+#outside-links, #inside-links{
+    list-style-type: none;
+}
+#outside-links{
+    text-align: right;
+}
 /*styling for outside links E.G. facebook */
-#outside-links {
+/* #outside-links {
     list-style-type: none;
     font-size: 100%;
     color: #FFFFFF;
@@ -203,12 +207,10 @@ End of hero image start of Location containers
     padding: 0;
     Margin: 0;
     text-align: left;
-}
+} 
 
 /* spacing for font awesome links */
 .links {
-    display: inline;
-    padding: 10px;
 }
 
 .social-icons {
@@ -228,7 +230,7 @@ End Of footer start of Form Styles
 #form {
     width: 500px;
     text-align: center;
-    background-color: rgba(217, 61, 74, .6);
+    background-color: #a07171c7;
     padding: 20px;
     margin: 150px auto;
     border-radius: 30px;
@@ -245,8 +247,7 @@ End Of footer start of Form Styles
 #form-background {
     height: inherit;
     width: 100%;
-    Background: url("../assets/images/form-back2.jpg") no-repeat center center;
-    background-size: contain;
+    Background: url("../assets/images/Form-Background.jpg") no-repeat center center;
     overflow: hidden;
 }
 
@@ -262,14 +263,13 @@ end of Form styles, start of location styles
 .location-container {
     Width: 95%;
     Height: 300px;
-    background-color: rgba(217, 61, 74, .6);
     border-radius: 30px;
     margin: 30px auto;
     text-align: center;
-}
-
-.location-title {
     font-size: 200%;
+}
+.location-title {
+    font-size: 125%;
     text-align: center;
     margin: auto;
     width: auto;
