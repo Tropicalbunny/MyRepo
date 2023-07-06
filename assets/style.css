@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 html {
   height: 100%;
   width: 100%;
   background-color:#C0BEBE ;
+  font-family:'Playfair', Courier, monospace;
 }
 *{
   Margin:0;
@@ -15,7 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 
 
 
@@ -155,10 +157,8 @@ a:hover {
   text-align:center;
   background-color:rgba(217, 61, 74, .6);
   padding:20px;
-  margin: auto;
-  margin-top: 40px;
+  margin: 150px auto;
   border-radius: 30px;
-  height: 1000px;
 }
 
 #form-image-outer{
@@ -172,12 +172,20 @@ a:hover {
   width: 100%;
   Background: url("../assets/images/form-back2.jpg") no-repeat center center;
   background-size: contain;
+  overflow: hidden;
 }
 #center{
     text-align: center;
 }
 
-
+@media screen and (max-width: 1400px){
+    #form-image-outer {
+            height: 800px;
+        }
+    #form {
+            margin: 75px auto;
+    }
+}
 @media screen and (max-width: 768px) {
     .navspacing {
         padding-left: 10px;
@@ -208,7 +216,11 @@ a:hover {
         }
 
     #form{
-        width: 300px;
+        width: 95%;
+        margin: 5px auto;
+    }
+    #form-image-outer {
+        height:700px;
     }
 }
 @media screen and (max-width: 470px){     
