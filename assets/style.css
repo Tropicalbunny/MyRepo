@@ -92,7 +92,7 @@ a:hover {
 
 /* start of locations */
 .location-box{
-    background-color: #a07171d2;
+    background-color: rgba(217, 61, 74, .6);
     border-radius: 30px;
     width: 500px;
     height:270px;
@@ -156,21 +156,25 @@ a:hover {
   background-color:rgba(217, 61, 74, .6);
   padding:20px;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 40px;
   border-radius: 30px;
+  height: 1000px;
 }
 
 #form-image-outer{
     height: 1000px;
     Width:100%;
-    text-align: center;
+    position: relative;
 
 }
 #form-background{
   height: inherit;
-  width:100%;
+  width: 100%;
   Background: url("../assets/images/form-back2.jpg") no-repeat center center;
-  overflow:hidden;
+  background-size: contain;
+}
+#center{
+    text-align: center;
 }
 
 
