@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 html {
   height: 100%;
   width: 100%;
@@ -61,7 +60,7 @@ a:hover {
     font-size: 120%;
 }
 .navspacing{
-    padding-right: 200px;
+    padding: 0 200px ;
 }
 
 /* end of nav bar start of hero image */
@@ -370,4 +369,5 @@ a:hover {
 }
 #hero-text {
     font-size: 80%;
+}
 }
