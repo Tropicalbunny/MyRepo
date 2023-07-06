@@ -69,6 +69,9 @@ Footer containers not sitting together correctly solution was to make parent con
 photos in 4k to high quality
 nav bar wouldnt center with text inline
 
+#### Testing
+used adobe color wheel to make sure contrast between text and background was acceptable.
+
 #### Features implemented
 
 * Slideshow gallery

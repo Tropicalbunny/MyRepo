@@ -77,13 +77,12 @@ a:hover {
 /* container for logo manipulation */
 #logo-container {
     height: 100px;
-    Width: 100%;
+    margin:auto;
     position: relative;
 }
 
 #logo {
     height: inherit;
-    width: 100%;
     background: url("../assets/images/Logo.jpg") no-repeat center center;
     background-size: contain;
 }
@@ -119,6 +118,7 @@ a:hover {
     width: 100%;
     Background: url("../assets/images/landing-page-hero.jpg") no-repeat center center;
     overflow: hidden;
+    z-index: 1;
 }
 
 /* hero text styling and positioning */
