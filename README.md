@@ -55,11 +55,11 @@ My original idea (above) i had started coding, but while developing i decided th
 
 ### Final Idea
 
-# insert word wireframes here.
+![alt text](assets/Readme-assets/FlowDiag.PNG "Flowdiag")
 
 above is the basic function of the website, this is how i wanted the website to flow to each webpage.
 
-# insert figma screenshots here.
+![alt text](assets/Readme-assets/Figma.PNG "Flowdiag")
 
 This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
 
