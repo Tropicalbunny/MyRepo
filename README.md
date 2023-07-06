@@ -44,7 +44,7 @@ The main business goal is to create a positive experience so consumers will freq
 
 ### Inital idea
 
-![alt text](assets/Readme-assets/old website.jpg "Flowdiag")
+![alt text](assets/Readme-assets/oldwebsite.jpg "oldwebsite")
 
 My original idea (above) i had started coding, but while developing i decided the user interface was messy and uninspired. which pushed me to go back to the drawing board and redevelop how i wanted the website to look and function. my biggest issue was Phone users wasnt in the forefront of my mind, and while coding i realised the website would easily become cluttered and akward to navigate, below are some brief descriptions of issues i had. (will not go into detail as re-development had its own issues)
 
