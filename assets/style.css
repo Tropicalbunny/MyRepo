@@ -1,19 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans&display=swap');
 
 /* a few changes to make sure all works correctly */
 html {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
-*{
-  Margin:0;
-  padding:0;
-  border:0;
-  font-family: 'Sarabun', sans-serif;
+
+* {
+    Margin: 0;
+    padding: 0;
+    border: 0;
+
 }
-body{
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+body {
     background-color: #C0BEBE;
+    font-family: 'Josefin Sans', sans-serif;
 }
+p {
+
+}
+
 /* responsive links */
 a:hover {
     text-decoration: underline;
@@ -21,55 +31,75 @@ a:hover {
 
 
 /* Color Theme Swatches in Hex */
-.color-theme_Logo-1-hex { color: #D93D4A; }
-.color-theme_Logo-2-hex { color: #A41818; }
-.color-theme_Logo-3-hex { color: #4A4646; }
-.color-theme_Logo-4-hex { color: #A07171; }
-.color-theme_Logo-5-hex { color: #FFFFFF; }
+.color-theme_Logo-1-hex {
+    color: #D93D4A;
+}
+
+.color-theme_Logo-2-hex {
+    color: #A41818;
+}
+
+.color-theme_Logo-3-hex {
+    color: #4A4646;
+}
+
+.color-theme_Logo-4-hex {
+    color: #A07171;
+}
+
+.color-theme_Logo-5-hex {
+    color: #FFFFFF;
+}
 
 /********
  nav bar 
  *******/
 
 #navbar {
-  position:fixed;
-  top:0;
-  background-color:#FFFFFF;
-  border: 0px;
-  width: 100%;
-  height: 200px;
-  z-index: 3;
+    position: fixed;
+    top: 0;
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 100%;
+    height: 200px;
+    z-index: 3;
 
 }
+
 /* nav back false back for positioning */
-#nav-back{
-  background-color:#FFFFFF;
-  border: 0px;
-  width: 100%;
-  height: 200px;
+#nav-back {
+    background-color: #FFFFFF;
+    border: 0px;
+    width: 100%;
+    height: 200px;
 }
+
 /* container for logo manipulation */
-#logo-container{
+#logo-container {
     height: 154px;
     Width: 100%;
     position: relative;
 }
+
 #logo {
     height: inherit;
     width: 100%;
-    background: url("../assets/images/Logo.jpg") no-repeat center center; 
+    background: url("../assets/images/Logo.jpg") no-repeat center center;
     background-size: contain;
 }
+
 /*container to hold nav links */
- #menu-container{
+#menu-container {
     margin: auto;
     font-size: 120%;
 }
+
 /* spacing off central text */
-.navspacing{
-    padding: 0 200px ;
+.navspacing {
+    padding: 0 200px;
 }
-.activesheet{
+
+.activesheet {
     font-weight: 700;
 }
 
@@ -78,19 +108,21 @@ a:hover {
  **********************************/
 
 /* hero image and its container styling */
-#main-hero-container{
-  height: 900px;
-  Width:100%;
-  position: relative;
+#main-hero-container {
+    height: 900px;
+    Width: 100%;
+    position: relative;
 }
-#main-hero{
-  height: inherit;
-  width:100%;
-  Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
-  overflow:hidden;
+
+#main-hero {
+    height: inherit;
+    width: 100%;
+    Background: url("../assets/images/landing-page-hero.jpg") no-repeat center center;
+    overflow: hidden;
 }
+
 /* hero text styling and positioning */
-#hero-text{
+#hero-text {
     width: 680px;
     height: 200px;
     background-color: #4a4646c2;
@@ -99,33 +131,39 @@ a:hover {
     left: 10%;
     bottom: 250px;
 }
-.box-text{
-    color:#FFFFFF;
+
+.box-text {
+    color: #FFFFFF;
     text-align: center;
     font-size: 200%;
 }
+
 .slowfade {
     animation-name: slowfade;
     animation-duration: 3s;
     animation-fill-mode: forwards;
 }
+
 /*********************************************
 End of hero image start of Location containers
 *********************************************/
-.location-box{
-    background-color: rgba(217, 61, 74, .6);
-    border-radius: 30px;
+.location-box {
+    background-color: rgba(150, 54, 62, 0.6);
     width: 500px;
-    height:270px;
+    height: 270px;
     display: inline-block;
     padding: 15px;
     Margin: 10px;
     position: relative;
     bottom: 100px;
 }
+
 /* Location box center align */
-.location-body{
+.location-body {
     text-align: center
+}
+.container-h1{
+        font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -135,42 +173,45 @@ End of hero image start of Location containers
 
 #footer {
     width: 100%;
-    Height: 175px;
     background-color: #A41818;
     display: flex;
     text-align: center;
 }
+
 /* Footer containers */
-.footer-box{
-    width: 45%;
-    height: inherit;
+.footer-box {
+    width: 500px;
+    height: 100px;
     display: inline-block;
-    margin: auto;
+    margin: 10px;
 }
+
 /*styling for outside links E.G. facebook */
-#outside-links{
+#outside-links {
     list-style-type: none;
-    font-size: 200%;
+    font-size: 100%;
     color: #FFFFFF;
+    text-align: right;
 
 }
+
 /* styling for links for internal webpages, and misc text */
-#inside-links{
+#inside-links {
     list-style-type: none;
-    font-size: 200%;
-    color:#FFFFFF ;
-    padding:0;
-    Margin:0;
-}
-#social{
+    font-size: 100%;
+    color: #FFFFFF;
     padding: 0;
+    Margin: 0;
+    text-align: left;
 }
+
 /* spacing for font awesome links */
-.links{
+.links {
     display: inline;
     padding: 10px;
 }
-.social-icons{
+
+.social-icons {
     Color: black;
 }
 
@@ -178,34 +219,38 @@ End of hero image start of Location containers
 End Of footer start of Form Styles
  **********************************/
 
- /* styiling for main form structure */
+/* styiling for main form structure */
 #form-outer {
     width: 100%;
     text-align: center;
 }
-#form{
-  width: 500px;
-  text-align:center;
-  background-color:rgba(217, 61, 74, .6);
-  padding:20px;
-  margin: 150px auto;
-  border-radius: 30px;
+
+#form {
+    width: 500px;
+    text-align: center;
+    background-color: rgba(217, 61, 74, .6);
+    padding: 20px;
+    margin: 150px auto;
+    border-radius: 30px;
 }
+
 /* Form image background styles */
-#form-image-outer{
+#form-image-outer {
     height: 1000px;
-    Width:100%;
+    Width: 100%;
     position: relative;
 
 }
-#form-background{
-  height: inherit;
-  width: 100%;
-  Background: url("../assets/images/form-back2.jpg") no-repeat center center;
-  background-size: contain;
-  overflow: hidden;
+
+#form-background {
+    height: inherit;
+    width: 100%;
+    Background: url("../assets/images/form-back2.jpg") no-repeat center center;
+    background-size: contain;
+    overflow: hidden;
 }
-#center{
+
+#center {
     text-align: center;
 }
 
@@ -214,7 +259,7 @@ End Of footer start of Form Styles
 end of Form styles, start of location styles
 *******************************************/
 
-.location-container{
+.location-container {
     Width: 95%;
     Height: 300px;
     background-color: rgba(217, 61, 74, .6);
@@ -222,22 +267,26 @@ end of Form styles, start of location styles
     margin: 30px auto;
     text-align: center;
 }
-.location-title{
+
+.location-title {
     font-size: 200%;
-    background-color: #4a4646d0;
     text-align: center;
     margin: auto;
     width: auto;
     border-radius: 30px;
 }
-.location-h1{
-        font-weight: 700;
-        color: #C0BEBE;
+
+.location-h1 {
+    font-weight: 700;
+    color:#4A4646;
+    font-family: 'Cinzel', serif;
 }
+
 /*simple style for adding padding to sections */
-.padding{
+.padding {
     padding: 10px;
 }
+
 /**********************************
 Code that is not mine, For the gallery 
  **********************************/
@@ -339,6 +388,7 @@ Code that is not mine, For the gallery
         opacity: 1
     }
 }
+
 /* End of code */
 
 /**************************
@@ -353,26 +403,35 @@ Start of responsive changes
         opacity: 1
     }
 }
-@media screen and (max-width: 1400px){
-/* changes form to scale */
+
+@media screen and (max-width: 1400px) {
+
+    /* changes form to scale */
     #form-image-outer {
-            height: 800px;
-        }
+        height: 800px;
+    }
+
     #form {
-            margin: 75px auto;
+        margin: 75px auto;
     }
 }
+
 @media screen and (max-width: 768px) {
-/* reduces spacing in nav bar for smaller screens */
+
+    /* reduces spacing in nav bar for smaller screens */
     .navspacing {
         padding-left: 10px;
         padding-right: 10px;
     }
-/* reduces Footer to stack ontop of eachother */
+
+    /* reduces Footer to stack ontop of eachother */
     #footer {
         width: 100%;
         Height: 350px;
         display: block;
+    }
+    #inside-links, #outside-links{
+        text-align: center;
     }
 
     .footer-box {
@@ -380,52 +439,61 @@ Start of responsive changes
         height: 175px;
         display: block;
     }
-/*moves the hero text to below image */
+
+    /*moves the hero text to below image */
     #hero-text {
         width: 100%;
         left: 0;
         bottom: 0;
         margin: 10px 0;
     }
-/* sets location boxes to stack verticaly */
+
+    /* sets location boxes to stack verticaly */
     .location-box {
         bottom: 0;
         left: 0;
         width: 100%;
         margin: 0;
         margin-bottom: 10px;
-        }
+    }
 
-/* changes form to fill smaller screens */
-    #form{
+    /* changes form to fill smaller screens */
+    #form {
         width: 95%;
         margin: 5px auto;
     }
+
     #form-image-outer {
-        height:700px;
+        height: 700px;
     }
-    #main-hero-container{
+
+    #main-hero-container {
         height: 620px;
     }
 }
-@media screen and (max-width: 470px){     
-/* shrinks text for small screens */
-    .small-screen{
+
+@media screen and (max-width: 470px) {
+
+    /* shrinks text for small screens */
+    .small-screen {
         font-size: 80%;
     }
-/* location title adjust */
+
+    /* location title adjust */
     .location-title {
         width: 100%;
         border-radius: 0px;
     }
 
-/* main hero adjust */
+    /* main hero adjust */
     #main-hero-container {
         height: 300px;
     }
+
     #main-hero {
         background-size: contain;
     }
+
     #hero-text {
         font-size: 80%;
     }
