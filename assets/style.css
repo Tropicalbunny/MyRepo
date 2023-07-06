@@ -4,7 +4,6 @@
 html {
   height: 100%;
   width: 100%;
-  background-color:#C0BEBE ;
 }
 *{
   Margin:0;
@@ -12,10 +11,9 @@ html {
   border:0;
   font-family: 'Sarabun', sans-serif;
 }
-section{
+body{
     background-color: #C0BEBE;
 }
-
 /* responsive links */
 a:hover {
     text-decoration: underline;
@@ -229,9 +227,16 @@ end of Form styles, start of location styles
     background-color: #4a4646d0;
     text-align: center;
     margin: auto;
-    width: 300px;
+    width: auto;
     border-radius: 30px;
-    font-weight: 5px;
+}
+.location-h1{
+        font-weight: 700;
+        color: #C0BEBE;
+}
+/*simple style for adding padding to sections */
+.padding{
+    padding: 10px;
 }
 /**********************************
 Code that is not mine, For the gallery 

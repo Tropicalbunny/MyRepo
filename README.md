@@ -80,6 +80,4 @@ nav bar wouldnt center with text inline
 * user reviews
 
 # Known bugs
-* background not colouring correctly
 * odd blue lines hanging off fontawesome icons
-* bold on active page only works on home page 
