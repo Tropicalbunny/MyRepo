@@ -195,6 +195,8 @@ a:hover {
     background-color: #4a4646d0;
     text-align: center;
     margin: auto;
+    width: 300px;
+    border-radius: 30px;
 }
 /* code that isnt my own, used for sliding gallery */
 * {
@@ -297,6 +299,7 @@ a:hover {
 /* End of code */
 
 @media screen and (max-width: 1400px){
+    /* changes form to scale */
     #form-image-outer {
             height: 800px;
         }
@@ -305,10 +308,12 @@ a:hover {
     }
 }
 @media screen and (max-width: 768px) {
+    /* reduces spacing in nav bar for smaller screens */
     .navspacing {
         padding-left: 10px;
         padding-right: 10px;
     }
+    /* reduces Footer to stack ontop of eachother */
     #footer {
         width: 100%;
         Height: 350px;
@@ -320,19 +325,23 @@ a:hover {
         height: 175px;
         display: block;
     }
-
+    /*moves the hero text to below image */
     #hero-text {
         width: 100%;
         left: 0;
         bottom: 0;
-        margin: 10px;
+        margin: 10px 0;
     }
+    /* sets location boxes to stack verticaly */
     .location-box {
         bottom: 0;
         left: 0;
         width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
         }
 
+    /* changes form to fill smaller screens */
     #form{
         width: 95%;
         margin: 5px auto;
@@ -342,7 +351,23 @@ a:hover {
     }
 }
 @media screen and (max-width: 470px){     
+/* shrinks text for small screens */
 .small-screen{
-    font-size: 25px;
+    font-size: 80%;
 }
+/* location title adjust */
+.location-title {
+    width: 100%;
+    border-radius: 0px;
+}
+
+/* main hero adjust */
+#main-hero-container {
+    height: 300px;
+}
+#main-hero {
+    background-size: contain;
+}
+#hero-text {
+    font-size: 80%;
 }
