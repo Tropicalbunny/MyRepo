@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
 
+/* a few changes to make sure all works correctly */
 html {
   height: 100%;
   width: 100%;
@@ -14,12 +15,11 @@ html {
 section{
     background-color: #C0BEBE;
 }
+
+/* responsive links */
 a:hover {
     text-decoration: underline;
 }
-
-
-
 
 
 /* Color Theme Swatches in Hex */
@@ -71,6 +71,9 @@ a:hover {
 .navspacing{
     padding: 0 200px ;
 }
+.activesheet{
+    font-weight: 700;
+}
 
 /**********************************
  end of nav bar start of hero image 
@@ -78,7 +81,7 @@ a:hover {
 
 /* hero image and its container styling */
 #main-hero-container{
-  height: 620px;
+  height: 900px;
   Width:100%;
   position: relative;
 }
@@ -102,6 +105,11 @@ a:hover {
     color:#FFFFFF;
     text-align: center;
     font-size: 200%;
+}
+.slowfade {
+    animation-name: slowfade;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 /*********************************************
 End of hero image start of Location containers
@@ -226,7 +234,7 @@ end of Form styles, start of location styles
     font-weight: 5px;
 }
 /**********************************
-Code that isnt mine, For the gallery 
+Code that is not mine, For the gallery 
  **********************************/
 * {
     box-sizing: border-box
@@ -331,7 +339,15 @@ Code that isnt mine, For the gallery
 /**************************
 Start of responsive changes 
 **************************/
+@keyframes slowfade {
+    from {
+        opacity: 0
+    }
 
+    to {
+        opacity: 1
+    }
+}
 @media screen and (max-width: 1400px){
 /* changes form to scale */
     #form-image-outer {
@@ -382,6 +398,9 @@ Start of responsive changes
     }
     #form-image-outer {
         height:700px;
+    }
+    #main-hero-container{
+        height: 620px;
     }
 }
 @media screen and (max-width: 470px){     

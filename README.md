@@ -71,10 +71,15 @@ nav bar wouldnt center with text inline
 
 #### Features implemented
 
+* Slideshow gallery
+* drop down list for locations
 #### Planned Features
 
-* Slideshow gallery
 * Radius search
 * trip-advisor search
 * user reviews
-* drop down list for locations
+
+# Known bugs
+* background not colouring correctly
+* odd blue lines hanging off fontawesome icons
+* bold on active page only works on home page 
