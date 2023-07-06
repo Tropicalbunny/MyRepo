@@ -27,6 +27,10 @@ a:hover {
 .color-theme_Logo-4-hex { color: #A07171; }
 .color-theme_Logo-5-hex { color: #FFFFFF; }
 
+/********
+ nav bar 
+ *******/
+
 #navbar {
   position:fixed;
   top:0;
@@ -37,13 +41,14 @@ a:hover {
   z-index: 3;
 
 }
-
+/* nav back false back for positioning */
 #nav-back{
   background-color:#FFFFFF;
   border: 0px;
   width: 100%;
   height: 200px;
 }
+/* container for logo manipulation */
 #logo-container{
     height: 154px;
     Width: 100%;
@@ -55,15 +60,21 @@ a:hover {
     background: url("../assets/images/Logo.jpg") no-repeat center center; 
     background-size: contain;
 }
+/*container to hold nav links */
  #menu-container{
     margin: auto;
     font-size: 120%;
 }
+/* spacing off central text */
 .navspacing{
     padding: 0 200px ;
 }
 
-/* end of nav bar start of hero image */
+/**********************************
+ end of nav bar start of hero image 
+ **********************************/
+
+/* hero image and its container styling */
 #main-hero-container{
   height: 620px;
   Width:100%;
@@ -75,6 +86,7 @@ a:hover {
   Background: url("../assets/images/IMAG0276.jpg") no-repeat center center;
   overflow:hidden;
 }
+/* hero text styling and positioning */
 #hero-text{
     width: 680px;
     height: 200px;
@@ -89,9 +101,9 @@ a:hover {
     text-align: center;
     font-size: 200%;
 }
-/* end of hero image */
-
-/* start of locations */
+/*********************************************
+End of hero image start of Location containers
+*********************************************/
 .location-box{
     background-color: rgba(217, 61, 74, .6);
     border-radius: 30px;
@@ -103,12 +115,16 @@ a:hover {
     position: relative;
     bottom: 100px;
 }
+/* Location box center align */
 .location-body{
     text-align: center
 }
 
 
-/* footer Styles */
+/**********************************
+ end of Containers, start of footer
+ **********************************/
+
 #footer {
     width: 100%;
     Height: 175px;
@@ -116,18 +132,21 @@ a:hover {
     display: flex;
     text-align: center;
 }
+/* Footer containers */
 .footer-box{
     width: 45%;
     height: inherit;
     display: inline-block;
     margin: auto;
 }
+/*styling for outside links E.G. facebook */
 #outside-links{
     list-style-type: none;
     font-size: 200%;
     color: #FFFFFF;
 
 }
+/* styling for links for internal webpages, and misc text */
 #inside-links{
     list-style-type: none;
     font-size: 200%;
@@ -138,6 +157,7 @@ a:hover {
 #social{
     padding: 0;
 }
+/* spacing for font awesome links */
 .links{
     display: inline;
     padding: 10px;
@@ -145,12 +165,16 @@ a:hover {
 .social-icons{
     Color: black;
 }
-/*form Page Styles */
+
+/**********************************
+End Of footer start of Form Styles
+ **********************************/
+ 
+ /* styiling for main form structure */
 #form-outer {
     width: 100%;
     text-align: center;
 }
-
 #form{
   width: 500px;
   text-align:center;
@@ -159,7 +183,7 @@ a:hover {
   margin: 150px auto;
   border-radius: 30px;
 }
-
+/* Form image background styles */
 #form-image-outer{
     height: 1000px;
     Width:100%;
@@ -178,9 +202,10 @@ a:hover {
 }
 
 
+/*******************************************
+end of Form styles, start of location styles
+*******************************************/
 
-
-/* Location page styles */
 .location-container{
     Width: 95%;
     Height: 300px;
@@ -197,7 +222,9 @@ a:hover {
     width: 300px;
     border-radius: 30px;
 }
-/* code that isnt my own, used for sliding gallery */
+/**********************************
+Code that isnt mine, For the gallery 
+ **********************************/
 * {
     box-sizing: border-box
 }
@@ -297,8 +324,12 @@ a:hover {
 }
 /* End of code */
 
+/**************************
+Start of responsive changes 
+**************************/
+
 @media screen and (max-width: 1400px){
-    /* changes form to scale */
+/* changes form to scale */
     #form-image-outer {
             height: 800px;
         }
@@ -307,12 +338,12 @@ a:hover {
     }
 }
 @media screen and (max-width: 768px) {
-    /* reduces spacing in nav bar for smaller screens */
+/* reduces spacing in nav bar for smaller screens */
     .navspacing {
         padding-left: 10px;
         padding-right: 10px;
     }
-    /* reduces Footer to stack ontop of eachother */
+/* reduces Footer to stack ontop of eachother */
     #footer {
         width: 100%;
         Height: 350px;
@@ -324,14 +355,14 @@ a:hover {
         height: 175px;
         display: block;
     }
-    /*moves the hero text to below image */
+/*moves the hero text to below image */
     #hero-text {
         width: 100%;
         left: 0;
         bottom: 0;
         margin: 10px 0;
     }
-    /* sets location boxes to stack verticaly */
+/* sets location boxes to stack verticaly */
     .location-box {
         bottom: 0;
         left: 0;
@@ -340,7 +371,7 @@ a:hover {
         margin-bottom: 10px;
         }
 
-    /* changes form to fill smaller screens */
+/* changes form to fill smaller screens */
     #form{
         width: 95%;
         margin: 5px auto;
@@ -351,23 +382,23 @@ a:hover {
 }
 @media screen and (max-width: 470px){     
 /* shrinks text for small screens */
-.small-screen{
-    font-size: 80%;
-}
+    .small-screen{
+        font-size: 80%;
+    }
 /* location title adjust */
-.location-title {
-    width: 100%;
-    border-radius: 0px;
-}
+    .location-title {
+        width: 100%;
+        border-radius: 0px;
+    }
 
 /* main hero adjust */
-#main-hero-container {
-    height: 300px;
-}
-#main-hero {
-    background-size: contain;
-}
-#hero-text {
-    font-size: 80%;
-}
+    #main-hero-container {
+        height: 300px;
+    }
+    #main-hero {
+        background-size: contain;
+    }
+    #hero-text {
+        font-size: 80%;
+    }
 }
