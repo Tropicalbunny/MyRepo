@@ -23,8 +23,8 @@ body {
 
 
 /* responsive links */
-a:hover {
-    text-decoration: underline;
+a {
+    text-decoration: none;
 }
 
 
@@ -62,6 +62,9 @@ a:hover {
     height: 150px;
     z-index: 3;
 
+}
+.link-hover:hover{
+    text-decoration: underline;
 }
 
 /* nav back false back for positioning */
@@ -212,8 +215,7 @@ End of hero image start of Location containers
 
 /* spacing for font awesome links */
 .links {
-    position: auto;
-    display: auto;
+    display: inline;
 }
 
 .social-icons {
