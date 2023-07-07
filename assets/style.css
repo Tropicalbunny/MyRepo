@@ -20,9 +20,7 @@ body {
     background-color: #C0BEBE;
     font-family: 'Josefin Sans', sans-serif;
 }
-p {
 
-}
 
 /* responsive links */
 a:hover {
@@ -166,6 +164,9 @@ End of hero image start of Location containers
         font-family: 'Josefin Sans', sans-serif;
 }
 
+.location-text{
+    font-size: 125%;
+}
 
 /**********************************
  end of Containers, start of footer
@@ -211,6 +212,8 @@ End of hero image start of Location containers
 
 /* spacing for font awesome links */
 .links {
+    position: auto;
+    display: auto;
 }
 
 .social-icons {
@@ -287,9 +290,9 @@ end of Form styles, start of location styles
     padding: 10px;
 }
 
-/**********************************
-Code that is not mine, For the gallery 
- **********************************/
+/***************************************************
+Code that is not mine, For the gallery (w3c schools)
+***************************************************/
 * {
     box-sizing: border-box
 }
@@ -456,6 +459,9 @@ Start of responsive changes
         margin: 0;
         margin-bottom: 10px;
     }
+    .location-container{
+        height: 500px;
+    }
 
     /* changes form to fill smaller screens */
     #form {
@@ -477,6 +483,13 @@ Start of responsive changes
     /* shrinks text for small screens */
     .small-screen {
         font-size: 80%;
+    }
+    /* navbar tweaks to sit better on smaller devices */
+    .navspacing {
+        padding: 0;
+        }
+    .container{
+        padding: 1px;
     }
 
     /* location title adjust */
