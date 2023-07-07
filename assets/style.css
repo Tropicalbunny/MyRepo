@@ -176,11 +176,13 @@ End of hero image start of Location containers
  **********************************/
 
 #footer {
-    background-color: #A41818;
+    background-color: #D93240;
     text-align: center;
     margin: auto;
-}
+    display: inline-block;
+    width: 100%;
 
+}
 /* Footer containers */
 .footer-box {
     width: 500px;
@@ -212,9 +214,10 @@ End of hero image start of Location containers
 } 
 
 /* spacing for font awesome links */
-.links {
+/* .links {
     display: inline;
-}
+    padding: 10px;
+} */
 
 .social-icons {
     Color: black;
