@@ -185,17 +185,15 @@ End of hero image start of Location containers
 .footer-box {
     width: 500px;
     height: 100px;
-    display: inline-block;
+    display:inline-block;
     margin: 10px;
-}
-#outside-links, #inside-links{
-    list-style-type: none;
+    background-color: rgba(0, 0, 255, 0.712);
 }
 #outside-links{
     text-align: right;
 }
 /*styling for outside links E.G. facebook */
-/* #outside-links {
+#outside-links {
     list-style-type: none;
     font-size: 100%;
     color: #FFFFFF;
@@ -503,10 +501,6 @@ Start of responsive changes
     /* main hero adjust */
     #main-hero-container {
         height: 300px;
-    }
-
-    #main-hero {
-        background-size: contain;
     }
 
     #hero-text {
