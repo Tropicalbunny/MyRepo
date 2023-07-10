@@ -103,10 +103,15 @@ Release a beta for the website, given to people with various devices to check in
 * trip-advisor search
 * user reviews
 
+### Technologies used
+
+* HTML 5
+* CSS 3
+* JAVASCRIPT (through w3c schools gallery)
+
 ### Issues
 
 #### Known bugs
-* form completion doesnt link to Success page
 
 #### fixed bugs
 
