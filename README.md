@@ -78,7 +78,8 @@ used adobe color wheel to make sure contrast between text and background was acc
 #### During Code Testing
 
 Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below)
-![media query broken](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquiery")
+
+![media query broken](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquery")
 ![media query fixed](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
 
 I had major issues with the Footer, the containers wouldnt align properly once they had their contents, after a re-code i managed to fix the issue
