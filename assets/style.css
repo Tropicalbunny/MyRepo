@@ -173,11 +173,11 @@ End of hero image start of Location containers
     background-size:cover;
 }
 #location-photo3 {
-    Background: url("../assets/images/") no-repeat center center;
+    Background: url("../assets/images/folkestone-container.jpg") no-repeat center center;
     background-size: cover;
 }
 #location-photo4 {
-    Background: url("../assets/images/") no-repeat center center;
+    Background: url("../assets/images/ashford-container.jpg") no-repeat center center;
     background-size: cover;
 }
 
