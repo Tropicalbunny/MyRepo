@@ -44,7 +44,7 @@ The main business goal is to create a positive experience so consumers will freq
 
 ### Inital idea
 
-![alt text](assets/Readme-assets/oldwebsite.jpg "oldwebsite")
+![old website](assets/Readme-assets/oldwebsite.jpg "oldwebsite")
 
 My original idea (above) i had started coding, but while developing i decided the user interface was messy and uninspired. which pushed me to go back to the drawing board and redevelop how i wanted the website to look and function. my biggest issue was Phone users wasnt in the forefront of my mind, and while coding i realised the website would easily become cluttered and akward to navigate, below are some brief descriptions of issues i had. (will not go into detail as re-development had its own issues)
 
@@ -55,11 +55,11 @@ My original idea (above) i had started coding, but while developing i decided th
 
 ### Final Idea
 
-![alt text](assets/Readme-assets/FlowDiag.PNG "Flowdiag")
+![Flow diagram](assets/Readme-assets/FlowDiag.PNG "Flowdiag")
 
 above is the basic function of the website, this is how i wanted the website to flow to each webpage.
 
-![alt text](assets/Readme-assets/Figma.PNG "Figma")
+![Figma design](assets/Readme-assets/Figma.PNG "Figma")
 
 This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
 
@@ -69,7 +69,7 @@ i decided to move the Home link to the center of the navigation bar, this was du
 # add photo of off center drop down list
 
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
-![alt text](assets/Readme-assets/Notable-change-containers.PNG "containerchanges")
+![container chnages](assets/Readme-assets/Notable-change-containers.PNG "containerchanges")
 
 ####  Pre code Testing
 
@@ -78,12 +78,12 @@ used adobe color wheel to make sure contrast between text and background was acc
 #### During Code Testing
 
 Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below)
-![alt text](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquiery")
-![alt text](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
+![media query broken](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquiery")
+![media query fixed](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
 
 I had major issues with the Footer, the containers wouldnt align properly once they had their contents, after a re-code i managed to fix the issue
-![alt text](assets/Readme-assets/broken-footer.PNG "brokenfooter")
-![alt text](assets/Readme-assets/Fixed-Footer.PNG "fixedfooter")
+![footer broken](assets/Readme-assets/broken-footer.png "brokenfooter")
+![footer fixed](assets/Readme-assets/Fixed-Footer.PNG "fixedfooter")
 
 #### Final Testing
 
