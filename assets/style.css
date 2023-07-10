@@ -300,7 +300,7 @@ end of Form styles, start of location styles
 *******************************************/
 
 .location-container {
-    Width: 95%;
+    Width: 1032px;
     Height: 300px;
     border-radius: 30px;
     margin: 30px auto;
@@ -453,6 +453,9 @@ Start of responsive changes
     #form {
         margin: 75px auto;
     }
+.location-container {
+    Width: 90%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -489,12 +492,16 @@ Start of responsive changes
 
     /* sets location boxes to stack verticaly */
     .location-box {
-        bottom: 0;
-        left: 0;
         width: 100%;
-        margin: 0;
-        margin-bottom: 10px;
+
     }
+        .location-photo-box {
+            width: 100%;
+            Margin: 0;
+            bottom:0;
+            margin-bottom: 10px;
+        }
+
     .location-container{
         height: 500px;
     }
