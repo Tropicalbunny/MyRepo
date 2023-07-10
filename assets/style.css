@@ -176,51 +176,62 @@ End of hero image start of Location containers
  **********************************/
 
 #footer {
-    background-color: #D93240;
-    text-align: center;
-    margin: auto;
-    display: inline-block;
     width: 100%;
-
+    Height: 100px;
+    background-color: #A41818;
+    display: flex;
+    text-align: center;
 }
-/* Footer containers */
+
 .footer-box {
     width: 500px;
-    height: 100px;
-    display:inline-block;
+    height: inherit;
+    display: inline-block;
     margin: 10px;
-    background-color: rgba(0, 0, 255, 0.712);
+    margin: auto;
 }
-#outside-links{
-    text-align: right;
+
+#footer-box1 {
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
 }
-/*styling for outside links E.G. facebook */
+
+#footer-box2 {
+    width: 500px;
+    height: inherit;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
 #outside-links {
     list-style-type: none;
-    font-size: 100%;
     color: #FFFFFF;
     text-align: right;
-
+    padding: 0;
+    margin-top: 10px;
 }
 
-/* styling for links for internal webpages, and misc text */
 #inside-links {
     list-style-type: none;
-    font-size: 100%;
     color: #FFFFFF;
-    padding: 0;
-    Margin: 0;
     text-align: left;
-} 
+    padding: 0;
+}
 
-/* spacing for font awesome links */
-/* .links {
+#social {
+    padding: 0;
+}
+
+.links {
     display: inline;
     padding: 10px;
-} */
-
-.social-icons {
-    Color: black;
+}
+.social-icons{
+    color: #4A4646;
 }
 
 /**********************************
@@ -433,17 +444,17 @@ Start of responsive changes
     /* reduces Footer to stack ontop of eachother */
     #footer {
         width: 100%;
-        Height: 350px;
+        Height: 200px;
         display: block;
     }
     #inside-links, #outside-links{
         text-align: center;
     }
 
-    .footer-box {
+    #footer-box1, #footer-box2 {
         width: 90%;
-        height: 175px;
-        display: block;
+        height: 100px;
+        margin: 0;
     }
 
     /*moves the hero text to below image */
@@ -510,3 +521,19 @@ Start of responsive changes
         font-size: 80%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********
+Testing only
+***********/
