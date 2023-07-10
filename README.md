@@ -69,6 +69,7 @@ i decided to move the Home link to the center of the navigation bar, this was du
 # add photo of off center drop down list
 
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
+
 ![container chnages](assets/Readme-assets/Notable-change-containers.PNG "containerchanges")
 
 ####  Pre code Testing
