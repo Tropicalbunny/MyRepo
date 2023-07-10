@@ -156,6 +156,7 @@ End of hero image start of Location containers
     padding: 15px;
     position: relative;
 }
+/* Css for the backgorund of containers in Landing page */
 .location-photo-box{
     width: 500px;
     height: 270px;
@@ -197,6 +198,9 @@ End of hero image start of Location containers
 }
 .right{
     text-align: right;
+}
+#center {
+    text-align: center;
 }
 /**********************************
  end of Containers, start of footer
@@ -297,9 +301,6 @@ End Of footer start of Form Styles
     overflow: hidden;
 }
 
-#center {
-    text-align: center;
-}
 
 
 /*******************************************
