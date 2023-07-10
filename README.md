@@ -64,9 +64,8 @@ above is the basic function of the website, this is how i wanted the website to 
 This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
 
 #### Notable Design Decisions.
-i decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link (shown Below)
 
-# add photo of off center drop down list
+i decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link
 
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
 
@@ -95,6 +94,8 @@ Release a beta for the website, given to people with various devices to check in
 
 * Slideshow gallery
 * drop down list for locations
+* underline links on hover
+* bold and slight size increase of active navbar webpage
 
 #### Planned Features
 
@@ -105,8 +106,10 @@ Release a beta for the website, given to people with various devices to check in
 ### Issues
 
 #### Known bugs
+* form completion doesnt link to Success page
 
 #### fixed bugs
+
 * odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
 * font awesome container offsets when set to display :inine; (rebuilt the footer fully)
 * footer box 1 off center when shrinking (solved after footer rebuild)
