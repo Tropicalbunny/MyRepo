@@ -59,7 +59,7 @@ My original idea (above) i had started coding, but while developing i decided th
 
 above is the basic function of the website, this is how i wanted the website to flow to each webpage.
 
-![alt text](assets/Readme-assets/Figma.PNG "Flowdiag")
+![alt text](assets/Readme-assets/Figma.PNG "Figma")
 
 This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
 
@@ -68,11 +68,8 @@ i decided to move the Home link to the center of the navigation bar, this was du
 
 # add photo of off center drop down list
 
-#### Issues
-
-Footer containers not sitting together correctly solution was to make parent container flex
-photos in 4k to high quality
-nav bar wouldnt center with display: inline, used bootstrap to correct the issue.
+I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
+![alt text](assets/Readme-assets/Notable-change-containers.PNG "containerchanges")
 
 ####  Pre code Testing
 
@@ -80,7 +77,13 @@ used adobe color wheel to make sure contrast between text and background was acc
 
 #### During Code Testing
 
-Checking and updating media querys to make sure structure is not comprimised when modifying code
+Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below)
+![alt text](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquiery")
+![alt text](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
+
+I had major issues with the Footer, the containers wouldnt align properly once they had their contents, after a re-code i managed to fix the issue
+![alt text](assets/Readme-assets/broken-footer.PNG "brokenfooter")
+![alt text](assets/Readme-assets/Fixed-Footer.PNG "fixedfooter")
 
 #### Final Testing
 
@@ -97,7 +100,28 @@ Release a beta for the website, given to people with various devices to check in
 * trip-advisor search
 * user reviews
 
-# Known bugs
-* odd blue lines hanging off fontawesome icons
-* font awesome container offsets when set to display :inine;
-* footer box 1 off center when shrinking
+### Issues
+
+#### Known bugs
+
+#### fixed bugs
+* odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
+* font awesome container offsets when set to display :inine; (rebuilt the footer fully)
+* footer box 1 off center when shrinking (solved after footer rebuild)
+* photos in 4k had to be reduced to 1080p for easier placement.
+* nav bar wouldnt center with display: inline, used bootstrap to correct the issue.
+* drop down list on locations off center, changed the layout of header to rectify.
+
+## Credits
+
+---
+
+### Images
+* pixabay (https://pixabay.com/photos/)
+* Thomas Anderson, Hanne Jessen. for some stunning photos.
+
+### Code aid
+* Adegbenga Adeye (Mentor)
+* Pasquale Fasulo (COBC Tutor)
+* w3c schools for the Gallery (https://www.w3schools.com/html/)
+* bootstrap v4.6 (https://getbootstrap.com/docs/4.6/)
