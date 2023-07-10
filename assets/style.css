@@ -149,14 +149,36 @@ a {
 End of hero image start of Location containers
 *********************************************/
 .location-box {
-    background-color: #A07171;
+    background-color: #a07171c9;
     width: 500px;
     height: 270px;
     display: inline-block;
     padding: 15px;
+    position: relative;
+}
+.location-photo-box{
+    width: 500px;
+    height: 270px;
+    display: inline-block;
     Margin: 10px;
     position: relative;
     bottom: 100px;
+}
+#location-photo1{
+    Background: url("../assets/images/dover-container.jpg") no-repeat center center;
+    background-size: cover;
+}
+#location-photo2 {
+    Background: url("../assets/images/canterbury-container.jpg") no-repeat center center;
+    background-size:cover;
+}
+#location-photo3 {
+    Background: url("../assets/images/") no-repeat center center;
+    background-size: cover;
+}
+#location-photo4 {
+    Background: url("../assets/images/") no-repeat center center;
+    background-size: cover;
 }
 
 /* Location box center align */
