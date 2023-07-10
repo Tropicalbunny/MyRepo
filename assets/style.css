@@ -98,9 +98,13 @@ a {
 .navspacing {
     padding: 0 150px;
 }
-
+/*resonsive design for what sheet is currently active */
 .activesheet {
     font-weight: 700;
+    font-size: 120%;
+}
+.nav-size{
+    width: 100px;
 }
 
 /**********************************
@@ -149,14 +153,37 @@ a {
 End of hero image start of Location containers
 *********************************************/
 .location-box {
-    background-color: #A07171;
+    background-color: #a07171de;
     width: 500px;
     height: 270px;
     display: inline-block;
     padding: 15px;
+    position: relative;
+}
+/* Css for the backgorund of containers in Landing page */
+.location-photo-box{
+    width: 500px;
+    height: 270px;
+    display: inline-block;
     Margin: 10px;
     position: relative;
     bottom: 100px;
+}
+#location-photo1{
+    Background: url("../assets/images/dover-container.jpg") no-repeat center center;
+    background-size: cover;
+}
+#location-photo2 {
+    Background: url("../assets/images/canterbury-container.jpg") no-repeat center center;
+    background-size:cover;
+}
+#location-photo3 {
+    Background: url("../assets/images/folkestone-container.jpg") no-repeat center center;
+    background-size: cover;
+}
+#location-photo4 {
+    Background: url("../assets/images/ashford-container.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 /* Location box center align */
@@ -170,14 +197,22 @@ End of hero image start of Location containers
 .location-text{
     font-size: 125%;
 }
-
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+#center {
+    text-align: center;
+}
 /**********************************
  end of Containers, start of footer
  **********************************/
 
 #footer {
     width: 100%;
-    Height: 100px;
+    Height: 85px;
     background-color: #A41818;
     display: flex;
     text-align: center;
@@ -193,18 +228,20 @@ End of hero image start of Location containers
 
 #footer-box1 {
     width: 500px;
-    height: inherit;
+    height: 80px;
     display: inline-block;
     margin-left: auto;
     margin-right: 10px;
+    margin-top: 5px;
 }
 
 #footer-box2 {
     width: 500px;
-    height: inherit;
+    height: 80px;
     display: inline-block;
     margin-left: 10px;
     margin-right: auto;
+    margin-top: 5px;
 }
 
 #outside-links {
@@ -231,7 +268,7 @@ End of hero image start of Location containers
     padding: 10px;
 }
 .social-icons{
-    color: #4A4646;
+    color: #FFFFFF;
 }
 
 /**********************************
@@ -268,9 +305,6 @@ End Of footer start of Form Styles
     overflow: hidden;
 }
 
-#center {
-    text-align: center;
-}
 
 
 /*******************************************
@@ -278,7 +312,7 @@ end of Form styles, start of location styles
 *******************************************/
 
 .location-container {
-    Width: 95%;
+    Width: 1032px;
     Height: 300px;
     border-radius: 30px;
     margin: 30px auto;
@@ -431,6 +465,9 @@ Start of responsive changes
     #form {
         margin: 75px auto;
     }
+.location-container {
+    Width: 90%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -467,14 +504,18 @@ Start of responsive changes
 
     /* sets location boxes to stack verticaly */
     .location-box {
-        bottom: 0;
-        left: 0;
         width: 100%;
-        margin: 0;
-        margin-bottom: 10px;
+
     }
+    .location-photo-box {
+        width: 100%;
+        Margin: 0;
+        bottom:0;
+        margin-bottom: 10px;
+        }
+
     .location-container{
-        height: 500px;
+        height: 550px;
     }
 
     /* changes form to fill smaller screens */
