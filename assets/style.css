@@ -557,6 +557,9 @@ Start of responsive changes
     .location-container{
         height: 550px;
     }
+    .location-text {
+        padding-top: 40px;
+    }
 
     /* changes form to fill smaller screens */
     #form, #success{
@@ -591,6 +594,9 @@ Start of responsive changes
     .location-title {
         width: 100%;
         border-radius: 0px;
+    }
+    .location-text{
+        padding-top:20px; 
     }
 
     /* main hero adjust */

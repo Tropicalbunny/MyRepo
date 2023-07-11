@@ -125,8 +125,25 @@ Release a beta for the website, given to people with various devices to check in
 ## Deployment
 ### Process
 
+Process for deploying a front end website was fairly easy. as i have all my commits and main branch on Gitpod it made the most sense to deploy on there as well, i used their deployment Gitpod Pages.
+
+#### The Deployment of the project was as follows:
+
+* use this link https://github.com/Tropicalbunny/MyRepo to get to my repo, login as yourself and click code
+* clone a copy for yourself
+* once you have a copy, head to settings on the navigation bar.
+* under code and automation, click pages
+* you change source to "deploy from branch" 
+* the branch will be "main" and "/root" you then click save.
+* the deployment process can take a few minutes, let this complete you can see the progress on the code page under Enviroments.
+
 ###  Encounted issues 
-Galleries havent Deployed correctly, the images come up with  
+
+Galleries havent Deployed correctly. the images come up with error message 404 not being found. a little playing around and i found that the issue was the directories, in the preview the directories only worked a specific way, now its delpoyed i had to change them back to link
+
+![gallery broken](assets/Readme-assets/gallery-deployment-issue1.PNG "broken gallery")
+
+![gallery fixed](assets/Readme-assets/gallery-deployment-fixed.PNG "fixed gallery")
 
 ## Credits
 
