@@ -534,11 +534,11 @@ Start of responsive changes
         width: 100%;
         left: 0;
         bottom: 0;
-        margin: 10px 0;
     }
     
     #hero-text-container {
         width: 100%;
+        margin: 10px 0;
     
     }
 
