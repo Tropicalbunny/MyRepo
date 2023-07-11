@@ -135,6 +135,8 @@ a {
     position: relative;
     left: 10%;
     bottom: 250px;
+    padding: 10px;
+    padding-top: 20px;
 }
 
 .box-text {
@@ -394,6 +396,7 @@ Code that is not mine, For the gallery (w3c schools)
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -555,7 +558,7 @@ Start of responsive changes
     }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 495px) {
 
     /* shrinks text for small screens */
     .small-screen {
@@ -582,6 +585,7 @@ Start of responsive changes
 
     #hero-text {
         font-size: 80%;
+        padding-top: 0;
     }
 }
 

@@ -122,6 +122,8 @@ Release a beta for the website, given to people with various devices to check in
 * nav bar wouldnt center with display: inline, used bootstrap to correct the issue.
 * drop down list on locations off center, changed the layout of header to rectify.
 
+## Deployment 
+
 ## Credits
 
 ---
