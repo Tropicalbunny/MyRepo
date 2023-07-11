@@ -127,13 +127,18 @@ a {
 }
 
 /* hero text styling and positioning */
+#hero-text-container{
+    width: 1020px;
+    height: 200px;
+    text-align: left;
+    margin:auto;
+}
 #hero-text {
     width: 680px;
     height: 200px;
     background-color: #4a4646c2;
     border-radius: 30px;
     position: relative;
-    left: 10%;
     bottom: 250px;
     padding: 10px;
     padding-top: 20px;
@@ -490,9 +495,14 @@ Start of responsive changes
     #form {
         margin: 75px auto;
     }
-.location-container {
-    Width: 90%;
+    .location-container {
+        Width: 90%;
 }
+    #hero-text-container {
+        width: 100%;
+    
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -525,6 +535,11 @@ Start of responsive changes
         left: 0;
         bottom: 0;
         margin: 10px 0;
+    }
+    
+    #hero-text-container {
+        width: 100%;
+    
     }
 
     /* sets location boxes to stack verticaly */
