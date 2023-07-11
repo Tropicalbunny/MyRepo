@@ -555,7 +555,7 @@ Start of responsive changes
         }
 
     .location-container{
-        height: 550px;
+        height: auto;
     }
     .location-text {
         padding-top: 40px;
