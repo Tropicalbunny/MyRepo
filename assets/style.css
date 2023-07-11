@@ -315,10 +315,13 @@ end of Form styles, start of location styles
     Width: 1032px;
     Height: 300px;
     border-radius: 30px;
-    margin: 30px auto;
+    margin: 10px auto;
     text-align: center;
     font-size: 200%;
 }
+.location-container-text{
+    padding-top: 30px;
+} 
 .location-title {
     font-size: 125%;
     text-align: center;
