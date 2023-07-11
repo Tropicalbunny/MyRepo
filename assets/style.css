@@ -306,7 +306,26 @@ End Of footer start of Form Styles
 }
 
 
-
+#success-image-outer{
+    width: 100%;
+    text-align: center;
+}
+#success-background {
+    height: inherit;
+    width: 100%;
+    Background: url("../assets/images/success-background.jpg") no-repeat center center;
+    overflow: hidden;
+    background-size:cover;
+}
+#success {
+    width: 600px;
+    text-align: center;
+    background-color: #a07171c7;
+    padding: 20px;
+    margin: 300px auto;
+    border-radius: 30px;
+    font-size: 200%;
+}
 /*******************************************
 end of Form styles, start of location styles
 *******************************************/
@@ -522,7 +541,7 @@ Start of responsive changes
     }
 
     /* changes form to fill smaller screens */
-    #form {
+    #form, #success{
         width: 95%;
         margin: 5px auto;
     }
