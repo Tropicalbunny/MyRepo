@@ -83,12 +83,25 @@ Checking and updating media querys to make sure structure is not comprimised whe
 ![media query fixed](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
 
 I had major issues with the Footer, the containers wouldnt align properly once they had their contents, after a re-code i managed to fix the issue
+
 ![footer broken](assets/Readme-assets/broken-footer.png "brokenfooter")
 ![footer fixed](assets/Readme-assets/Fixed-Footer.PNG "fixedfooter")
 
 #### Final Testing
 
 Release a beta for the website, given to people with various devices to check integrity and discover bugs.
+
+##### User comments
+
+* Capital letters on locations, and some incorrect spelling
+* overall easy to navigate
+* responsive design is a nice touch 
+
+##### Personal testing
+* checked each navigational link and confirmed they are working
+* checked the form links and notice they do not work since being deployed.
+* made sure all text and containers align as thye should.
+
 
 #### Features implemented
 
@@ -108,6 +121,7 @@ Release a beta for the website, given to people with various devices to check in
 * HTML 5
 * CSS 3
 * JAVASCRIPT (through w3c schools gallery)
+* bootstrap v4
 
 ### Issues
 
@@ -158,3 +172,8 @@ Galleries havent Deployed correctly. the images come up with error message 404 n
 * Pasquale Fasulo (COBC Tutor)
 * w3c schools for the Gallery (https://www.w3schools.com/html/)
 * bootstrap v4.6 (https://getbootstrap.com/docs/4.6/)
+
+### Testing
+
+* My Team At PML
+* Family Programmers
