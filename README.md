@@ -1,8 +1,9 @@
 # Visit Kent
-
+## user-centric frontend development project
 ---
 
 Visit Kent is designed for people who would like to visit kent but are unsure about places to visit or what kent has avaliable.
+
 
 ## UX
 
@@ -12,10 +13,16 @@ Visit Kent is designed for people who would like to visit kent but are unsure ab
 
 The main end user goals is to find and visit highly rated locations in kent.
 
+#### New user goals
+
 - I would expect clear direction to locations and what they have to offer
 - I expect to be able to contact if i have any questions, or struggle finding something that suits me
 - I would like simple design responces that show me where i am.
 - as a user of the website i want to be able to find highly rated activites in kent
+
+#### Returning user goals
+
+* easily find other locations and information about them
 
 ### Project Goals
 
@@ -23,7 +30,6 @@ The main project goal of this website is to make an easy, user friendly website 
 
 - Make an incredibly simple UI so people that have less knowledge to technology can have a pleasant experience
 - Clearly show locations, with images that peak intrest
--
 
 ### Busines Goals
 
@@ -46,7 +52,7 @@ The main business goal is to create a positive experience so consumers will freq
 
 ![old website](assets/Readme-assets/oldwebsite.jpg "oldwebsite")
 
-My original idea (above) i had started coding, but while developing i decided the user interface was messy and uninspired. which pushed me to go back to the drawing board and redevelop how i wanted the website to look and function. my biggest issue was Phone users wasnt in the forefront of my mind, and while coding i realised the website would easily become cluttered and akward to navigate, below are some brief descriptions of issues i had. (will not go into detail as re-development had its own issues)
+My original idea (above) i had started coding, but while developing i decided the user interface was messy and uninspired. which pushed me to go back to the drawing board and redevelop how i wanted the website to look and function. my biggest issue was Phone users wasnt in the forefront of my mind, and while coding i realised the website would easily become cluttered and awkward to navigate, below are some brief descriptions of issues i had. (will not go into detail as re-development had its own issues)
 
 - spacing issues with icons
 - hover over changes issues
@@ -55,13 +61,27 @@ My original idea (above) i had started coding, but while developing i decided th
 
 ### Final Idea
 
+i designed the website with simplicity in mind, trying to create a logical and reasoned flow across all pages, the physical process of the webpage is the same whether it be tablet, desktop or phone. 
+
 ![Flow diagram](assets/Readme-assets/FlowDiag.PNG "Flowdiag")
 
 above is the basic function of the website, this is how i wanted the website to flow to each webpage.
 
 ![Figma design](assets/Readme-assets/Figma.PNG "Figma")
 
-This was my re-design to make the website more user friendly, i also designed how i wanted the website to look on tablet and phone.
+This was my re-design to make the website more user friendly, this is where i also created how i wanted the webpage to look across several devices, so i could maintain structural and user-centric stability.
+the colours i have used across the site:
+
+color: #D93D4A;
+color: #A41818;
+color: #4A4646;
+color: #A07171;
+color: #FFFFFF;
+
+Fonts:
+for titles i have used: 'Cinzel', as a backup serif
+for text i have used: 'Josefin Sans', as a backup sans-serif
+i have used two fonts so i could create a sense of hirearchy across the site
 
 #### Notable Design Decisions.
 
@@ -77,7 +97,7 @@ used adobe color wheel to make sure contrast between text and background was acc
 
 #### During Code Testing
 
-Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below)
+Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below) i used egde developer tools to help me identify and rectify any issues uncovered, this was a regular tool that i used. 
 
 ![media query broken](assets/Readme-assets/Checking-media-quieries-broken.PNG "brokenquery")
 ![media query fixed](assets/Readme-assets/Checking-media-quieries-fixed.PNG "fixedquery")
@@ -96,14 +116,43 @@ Release a beta for the website, given to people with various devices to check in
 * Capital letters on locations, and some incorrect spelling
 * overall easy to navigate
 * responsive design is a nice touch 
+* the website worked as i expected it too
+
+Testers were on a variety of devices,
+
+Iphone 13
+Samsung s21 ultra
+Iphone 11 Pro max.
+Iphone 13 pro
+Iphone 12
+
+the webpage responded and ran as expected across all the above devices.
 
 ##### Personal testing
+
 * checked each navigational link and confirmed they are working
 * checked the form links and notice they do not work since being deployed.
 * made sure all text and containers align as thye should.
 
 
 #### Features implemented
+
+the website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
+
+##### Landing Page
+this page neded to be the most appealing of the page, when people come to my website i want them to stay and see what i have to offer,
+so i selected a hero image that would grab attention.
+then below this i have my 4 chosen locations that i hyperlinked to their respective pages
+
+##### Location Pages
+these pages hold the galleries to showcase their respective locations, 4 of these pages have been made.
+i kept the design simple and intresting, holding 3 images and text about the location
+
+##### Contact us page
+this page i also kept simple, i centralised the form over a background so i had little wasted space
+
+##### About us 
+Simple page using a mix of the location page and landing page. simple text showing off me.
 
 * Slideshow gallery
 * drop down list for locations
@@ -122,6 +171,11 @@ Release a beta for the website, given to people with various devices to check in
 * CSS 3
 * JAVASCRIPT (through w3c schools gallery)
 * bootstrap v4
+* Font awesome
+* Google fonts
+* Github
+* gitpod
+* Figma for design
 
 ### Issues
 
