@@ -4,6 +4,7 @@
 
 Visit Kent is designed for people who would like to visit kent but are unsure about places to visit or what kent has avaliable.
 
+Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
 
 ## UX
 
@@ -134,7 +135,10 @@ the webpage responded and ran as expected across all the above devices.
 * checked the form links and notice they do not work since being deployed.
 * made sure all text and containers align as thye should.
 
+ i have used JigSaw w3c to validate my CSS, Passed all clear.
 
+ i have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
+and i have taken steps to fix them.
 #### Features implemented
 
 the website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
