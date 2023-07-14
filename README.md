@@ -6,6 +6,24 @@ Visit Kent is designed for people who would like to visit kent but are unsure ab
 
 Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
 
+
+
+## Table of content
+- [UX](#ux)
+    - [User stories](#user-stories)
+        - [New User Goals](#new-user-goals)
+        - [Returning User Goals](#returning-user-goals)
+    - [Project Goals](#project-goals)
+    - [Business Goals](#business-goals)
+    - [Minimum Acceptance Criteria](#minimum-acceptance-criteria)
+- [Development](#development)
+    - [Inital Idea](#inital-idea)
+    - [Final Idea](#final-idea)
+        - [Notable Design Decisions](#notable-design-decisions)
+    - [Testing](#testing)
+        - [Pre code Testing](#pre-code-testing)
+        - [During Code Testing](#during-code-testing)
+        - [Final Testing](#final-testing)
 ## UX
 
 ---
@@ -14,14 +32,14 @@ Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
 
 The main end user goals is to find and visit highly rated locations in kent.
 
-#### New user goals
+#### New User Goals
 
 - I would expect clear direction to locations and what they have to offer
 - I expect to be able to contact if i have any questions, or struggle finding something that suits me
 - I would like simple design responces that show me where i am.
 - as a user of the website i want to be able to find highly rated activites in kent
 
-#### Returning user goals
+#### Returning User Goals
 
 * easily find other locations and information about them
 
@@ -32,7 +50,7 @@ The main project goal of this website is to make an easy, user friendly website 
 - Make an incredibly simple UI so people that have less knowledge to technology can have a pleasant experience
 - Clearly show locations, with images that peak intrest
 
-### Busines Goals
+### Business Goals
 
 The main business goal is to create a positive experience so consumers will frequently return.
 
@@ -91,12 +109,15 @@ i decided to move the Home link to the center of the navigation bar, this was du
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
 
 ![container chnages](assets/Readme-assets/Notable-change-containers.PNG "containerchanges")
+## Testing
 
-####  Pre code Testing
+---
+
+### Pre code Testing
 
 used adobe color wheel to make sure contrast between text and background was acceptable.
 
-#### During Code Testing
+### During Code Testing
 
 Checking and updating media querys to make sure structure is not comprimised when modifying code (see images below) i used egde developer tools to help me identify and rectify any issues uncovered, this was a regular tool that i used. 
 
@@ -108,11 +129,11 @@ I had major issues with the Footer, the containers wouldnt align properly once t
 ![footer broken](assets/Readme-assets/broken-footer.png "brokenfooter")
 ![footer fixed](assets/Readme-assets/Fixed-Footer.PNG "fixedfooter")
 
-#### Final Testing
+### Final Testing
 
 Release a beta for the website, given to people with various devices to check integrity and discover bugs.
 
-##### User comments
+### User comments
 
 * Capital letters on locations, and some incorrect spelling
 * overall easy to navigate
@@ -129,7 +150,7 @@ Iphone 12
 
 the webpage responded and ran as expected across all the above devices.
 
-##### Personal testing
+### Personal testing
 
 * checked each navigational link and confirmed they are working
 * checked the form links and notice they do not work since being deployed.
@@ -139,6 +160,16 @@ the webpage responded and ran as expected across all the above devices.
 
  i have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
 and i have taken steps to fix them.
+
+i used lighthouse to make sure my website is in working order, below is my score for desktop:
+# add photo of score here.
+
+below is my score on phone:
+# add photo of score here.
+
+i have updated my website based on the recomendations given, below is my new score on phone:
+# add photo of score here.
+
 #### Features implemented
 
 the website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
@@ -180,6 +211,7 @@ Simple page using a mix of the location page and landing page. simple text showi
 * Github
 * gitpod
 * Figma for design
+
 
 ### Issues
 
