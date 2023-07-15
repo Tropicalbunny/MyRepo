@@ -1,5 +1,6 @@
 # Visit Kent
-## user-centric frontend development project
+
+## User-centric Frontend development project
 ---
 
 Visit Kent is designed for people who would like to visit kent but are unsure about places to visit or what kent has avaliable.
