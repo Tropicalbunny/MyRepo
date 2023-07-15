@@ -24,6 +24,23 @@ Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
         - [Pre code Testing](#pre-code-testing)
         - [During Code Testing](#during-code-testing)
         - [Final Testing](#final-testing)
+        - [User Comments](#user-comments)
+        - [Personal Testing](#personal-testing)
+    - [Features implemented](#features-implemented)
+        - [Landing Page](#landing-page)
+        - [Location Pages](#location-pages)
+        - [Contact us page](#contact-us-page)
+        - [About us](#about-us)
+    - [Planned Features](#planned-features)
+    - [Technologies Used](#technologies-used)
+    - [Issues](#issues)
+        - [Known Bugs](#known-bugs)
+        - [Fixed Bugs](#fixed-bugs)
+    - [Deployment](#deployment)
+        - [Process](#process)
+        - [Enccounted Issues](#encounted-issues)
+    - [Credits](#credits)
+
 ## UX
 
 ---
@@ -170,23 +187,23 @@ below is my score on phone:
 i have updated my website based on the recomendations given, below is my new score on phone:
 # add photo of score here.
 
-#### Features implemented
+## Features implemented
 
 the website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
 
-##### Landing Page
+### Landing Page
 this page neded to be the most appealing of the page, when people come to my website i want them to stay and see what i have to offer,
 so i selected a hero image that would grab attention.
 then below this i have my 4 chosen locations that i hyperlinked to their respective pages
 
-##### Location Pages
+### Location Pages
 these pages hold the galleries to showcase their respective locations, 4 of these pages have been made.
 i kept the design simple and intresting, holding 3 images and text about the location
 
-##### Contact us page
+### Contact us page
 this page i also kept simple, i centralised the form over a background so i had little wasted space
 
-##### About us 
+### About us 
 Simple page using a mix of the location page and landing page. simple text showing off me.
 
 * Slideshow gallery
@@ -194,13 +211,13 @@ Simple page using a mix of the location page and landing page. simple text showi
 * underline links on hover
 * bold and slight size increase of active navbar webpage
 
-#### Planned Features
+## Planned Features
 
 * Radius search
 * trip-advisor search
 * user reviews
 
-### Technologies used
+## Technologies Used
 
 * HTML 5
 * CSS 3
@@ -213,11 +230,11 @@ Simple page using a mix of the location page and landing page. simple text showi
 * Figma for design
 
 
-### Issues
+## Issues
 
-#### Known bugs
+### Known bugs
 
-#### fixed bugs
+### fixed bugs
 
 * odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
 * font awesome container offsets when set to display :inine; (rebuilt the footer fully)
@@ -227,11 +244,14 @@ Simple page using a mix of the location page and landing page. simple text showi
 * drop down list on locations off center, changed the layout of header to rectify.
 
 ## Deployment
+
+---
+
 ### Process
 
 Process for deploying a front end website was fairly easy. as i have all my commits and main branch on Gitpod it made the most sense to deploy on there as well, i used their deployment Gitpod Pages.
 
-#### The Deployment of the project was as follows:
+The Deployment of the project was as follows:
 
 * use this link https://github.com/Tropicalbunny/MyRepo to get to my repo, login as yourself and click code
 * clone a copy for yourself
