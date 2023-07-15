@@ -27,6 +27,7 @@ Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
         - [User Comments](#user-comments)
         - [Personal Testing](#personal-testing)
     - [Features implemented](#features-implemented)
+        - [Nav Bar](#nav-bar)
         - [Landing Page](#landing-page)
         - [Location Pages](#location-pages)
         - [Contact us page](#contact-us-page)
@@ -54,11 +55,11 @@ The main end user goals is to find and visit highly rated locations in kent.
 - I would expect clear direction to locations and what they have to offer
 - I expect to be able to contact if i have any questions, or struggle finding something that suits me
 - I would like simple design responces that show me where i am.
-- as a user of the website i want to be able to find highly rated activites in kent
+- As a user of the website i want to be able to find highly rated activites in kent
 
 #### Returning User Goals
 
-* easily find other locations and information about them
+* Easily find other locations and information about them
 
 ### Project Goals
 
@@ -71,8 +72,8 @@ The main project goal of this website is to make an easy, user friendly website 
 
 The main business goal is to create a positive experience so consumers will frequently return.
 
-- increase business traffic
-- increase page rank and advertisement revenue
+- Increase business traffic
+- Increase page rank and advertisement revenue
 
 ### Minimum Acceptance Criteria
 
@@ -90,18 +91,18 @@ The main business goal is to create a positive experience so consumers will freq
 
 My original idea (above) i had started coding, but while developing i decided the user interface was messy and uninspired. which pushed me to go back to the drawing board and redevelop how i wanted the website to look and function. my biggest issue was Phone users wasnt in the forefront of my mind, and while coding i realised the website would easily become cluttered and awkward to navigate, below are some brief descriptions of issues i had. (will not go into detail as re-development had its own issues)
 
-- spacing issues with icons
-- hover over changes issues
-- aligning logo left without changing in nav bar
-- reduction of hero image resolutions to fit. (will go into more detail below)
+- Spacing issues with icons
+- Hover over changes issues
+- Aligning logo left without changing in nav bar
+- Reduction of hero image resolutions to fit. (will go into more detail below)
 
 ### Final Idea
 
-i designed the website with simplicity in mind, trying to create a logical and reasoned flow across all pages, the physical process of the webpage is the same whether it be tablet, desktop or phone. 
+I designed the website with simplicity in mind, trying to create a logical and reasoned flow across all pages, the physical process of the webpage is the same whether it be tablet, desktop or phone. 
 
 ![Flow diagram](assets/Readme-assets/FlowDiag.PNG "Flowdiag")
 
-above is the basic function of the website, this is how i wanted the website to flow to each webpage.
+Above is the basic function of the website, this is how i wanted the website to flow to each webpage.
 
 ![Figma design](assets/Readme-assets/Figma.PNG "Figma")
 
@@ -115,13 +116,13 @@ color: #A07171;
 color: #FFFFFF;
 
 Fonts:
-for titles i have used: 'Cinzel', as a backup serif
-for text i have used: 'Josefin Sans', as a backup sans-serif
-i have used two fonts so i could create a sense of hirearchy across the site
+For titles i have used: 'Cinzel', as a backup serif
+For text i have used: 'Josefin Sans', as a backup sans-serif
+I have used two fonts so i could create a sense of hirearchy across the site
 
 #### Notable Design Decisions.
 
-i decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link
+I decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link
 
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
 
@@ -150,12 +151,12 @@ I had major issues with the Footer, the containers wouldnt align properly once t
 
 Release a beta for the website, given to people with various devices to check integrity and discover bugs.
 
-### User comments
+### User Comments
 
 * Capital letters on locations, and some incorrect spelling
-* overall easy to navigate
-* responsive design is a nice touch 
-* the website worked as i expected it too
+* Overall easy to navigate
+* Responsive design is a nice touch 
+* The website worked as i expected it too
 
 Testers were on a variety of devices,
 
@@ -165,39 +166,41 @@ Iphone 11 Pro max.
 Iphone 13 pro
 Iphone 12
 
-the webpage responded and ran as expected across all the above devices.
+The webpage responded and ran as expected across all the above devices.
 
-### Personal testing
+### Personal Testing
 
-* checked each navigational link and confirmed they are working
-* checked the form links and notice they do not work since being deployed.
-* made sure all text and containers align as thye should.
+* Checked each navigational link and confirmed they are working
+* Checked the form links and notice they do not work since being deployed.
+* Made sure all text and containers align as thye should.
 
- i have used JigSaw w3c to validate my CSS, Passed all clear.
+I have used JigSaw w3c to validate my CSS, Passed all clear.
 
- i have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
+I have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
 and i have taken steps to fix them.
 
-i used lighthouse to make sure my website is in working order, below is my score for desktop:
+I used lighthouse to make sure my website is in working order, below is my score for desktop:
 # add photo of score here.
 
-below is my score on phone:
+Below is my score on phone: i was overall happy with this score as some server side decisions prevented me getting a higher score.
 # add photo of score here.
 
-i have updated my website based on the recomendations given, below is my new score on phone:
-# add photo of score here.
 
-## Features implemented
+## Features Implemented
 
-the website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
+The website consists of 8 pages, 6 are accessable from the navigation bar, while one is an about us page accessable from the footer, the other is a success page after subbmitting the contact us form.
+
+### Nav Bar
+
+The Navigation bar consits of 3 parts, the first being location drop down menu, consiting of the 4 locations i have chosen. the next is a link to the home page, the logo also links to the home page,  the final is a link to the contact us page. 
 
 ### Landing Page
-this page neded to be the most appealing of the page, when people come to my website i want them to stay and see what i have to offer,
+This page neded to be the most appealing of the page, when people come to my website i want them to stay and see what i have to offer,
 so i selected a hero image that would grab attention.
 then below this i have my 4 chosen locations that i hyperlinked to their respective pages
 
 ### Location Pages
-these pages hold the galleries to showcase their respective locations, 4 of these pages have been made.
+These pages hold the galleries to showcase their respective locations, 4 of these pages have been made.
 i kept the design simple and intresting, holding 3 images and text about the location
 
 ### Contact us page
@@ -207,22 +210,22 @@ this page i also kept simple, i centralised the form over a background so i had 
 Simple page using a mix of the location page and landing page. simple text showing off me.
 
 * Slideshow gallery
-* drop down list for locations
-* underline links on hover
-* bold and slight size increase of active navbar webpage
+* Drop down list for locations
+* Underline links on hover
+* Bold and slight size increase of active navbar webpage
 
 ## Planned Features
 
 * Radius search
-* trip-advisor search
-* user reviews
+* Trip-Advisor search
+* User reviews
 
 ## Technologies Used
 
 * HTML 5
 * CSS 3
 * JAVASCRIPT (through w3c schools gallery)
-* bootstrap v4
+* Bootstrap v4
 * Font awesome
 * Google fonts
 * Github
@@ -236,12 +239,12 @@ Simple page using a mix of the location page and landing page. simple text showi
 
 ### fixed bugs
 
-* odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
-* font awesome container offsets when set to display :inine; (rebuilt the footer fully)
-* footer box 1 off center when shrinking (solved after footer rebuild)
-* photos in 4k had to be reduced to 1080p for easier placement.
-* nav bar wouldnt center with display: inline, used bootstrap to correct the issue.
-* drop down list on locations off center, changed the layout of header to rectify.
+* Odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
+* Font awesome container offsets when set to display :inine; (rebuilt the footer fully)
+* Footer box 1 off center when shrinking (solved after footer rebuild)
+* Photos in 4k had to be reduced to 1080p for easier placement.
+* Nav bar wouldnt center with display: inline, used bootstrap to correct the issue.
+* Drop down list on locations off center, changed the layout of header to rectify.
 
 ## Deployment
 
@@ -253,15 +256,15 @@ Process for deploying a front end website was fairly easy. as i have all my comm
 
 The Deployment of the project was as follows:
 
-* use this link https://github.com/Tropicalbunny/MyRepo to get to my repo, login as yourself and click code
-* clone a copy for yourself
-* once you have a copy, head to settings on the navigation bar.
-* under code and automation, click pages
-* you change source to "deploy from branch" 
-* the branch will be "main" and "/root" you then click save.
-* the deployment process can take a few minutes, let this complete you can see the progress on the code page under Enviroments.
+* Use this link https://github.com/Tropicalbunny/MyRepo to get to my repo, login as yourself and click code
+* Clone a copy for yourself
+* Once you have a copy, head to settings on the navigation bar.
+* Under code and automation, click pages
+* You change source to "deploy from branch" 
+* The branch will be "main" and "/root" you then click save.
+* The deployment process can take a few minutes, let this complete you can see the progress on the code page under Enviroments.
 
-###  Encounted issues 
+###  Encounted Issues 
 
 Galleries havent Deployed correctly. the images come up with error message 404 not being found. a little playing around and i found that the issue was the directories, in the preview the directories only worked a specific way, now its delpoyed i had to change them back to link
 
@@ -274,14 +277,14 @@ Galleries havent Deployed correctly. the images come up with error message 404 n
 ---
 
 ### Images
-* pixabay (https://pixabay.com/photos/)
+* Pixabay (https://pixabay.com/photos/)
 * Thomas Anderson, Hanne Jessen. for some stunning photos.
 
 ### Code aid
 * Adegbenga Adeye (Mentor)
 * Pasquale Fasulo (COBC Tutor)
-* w3c schools for the Gallery (https://www.w3schools.com/html/)
-* bootstrap v4.6 (https://getbootstrap.com/docs/4.6/)
+* W3C schools for the Gallery (https://www.w3schools.com/html/)
+* Bootstrap v4.6 (https://getbootstrap.com/docs/4.6/)
 
 ### Testing
 
