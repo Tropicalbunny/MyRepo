@@ -41,7 +41,7 @@ Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
     - [Deployment](#deployment)
         - [Process](#process)
         - [Enccounted Issues](#encounted-issues)
-    - [Credits](#credits)
+- [Credits](#credits)
 
 ## UX
 
@@ -123,7 +123,7 @@ I have used two fonts so i could create a sense of hirearchy across the site
 
 #### Notable Design Decisions.
 
-I decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link
+I decided to move the Home link to the center of the navigation bar, this was due to the "locations" drop down list not sitting correctly under the link, when testing i made sure to make this a focal point, i needed to confirm that it would not cause any issues with user experience. user experience was not affected by the change
 
 I added Photos behind the location containers, i felt the site was a little bland. this made a sublte but big difference. (photo includes two with and two without)
 
@@ -179,7 +179,7 @@ I have used JigSaw w3c to validate my CSS, Passed all clear.
 I have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
 and i have taken steps to fix them.
 
-![W3C-code-issues-landing](assets/Readme-assets/W3C-code-issues-landing.jpg "W3C-code-issues-landing")
+![W3C-code-issues-landing](assets/Readme-assets/W3C-code-issues-landing.JPG "W3C-code-issues-landing")
 
 ![W3C-code-issues-landing-fixed](assets/Readme-assets/W3C-code-issues-landing-fixed.jpg "W3C-code-issues-landing-fixed")
 
