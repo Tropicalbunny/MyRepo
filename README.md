@@ -181,10 +181,10 @@ I have used w3c html validator to validate my HTML, i have uncovered a few issue
 and i have taken steps to fix them.
 
 I used lighthouse to make sure my website is in working order, below is my score for desktop:
-# add photo of score here.
+![Lighthouse test desktop](assets/Readme-assets/Lighthouse-test-desktop.jpg "Lighthouse Test Desktop")
 
 Below is my score on phone: i was overall happy with this score as some server side decisions prevented me getting a higher score.
-# add photo of score here.
+![Lighthouse test mobile](assets/Readme-assets/Lighthouse-test.jpg "Lighthouse Test Mobile")
 
 
 ## Features Implemented
