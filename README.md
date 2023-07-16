@@ -25,8 +25,8 @@ Live Site https://tropicalbunny.github.io/MyRepo/Landing-Page
         - [Pre code Testing](#pre-code-testing)
         - [During Code Testing](#during-code-testing)
         - [Final Testing](#final-testing)
-        - [User Comments](#user-comments)
-        - [Personal Testing](#personal-testing)
+            - [User Comments](#user-comments)
+            - [Personal Testing](#personal-testing)
     - [Features implemented](#features-implemented)
         - [Nav Bar](#nav-bar)
         - [Landing Page](#landing-page)
@@ -150,9 +150,8 @@ I had major issues with the Footer, the containers wouldnt align properly once t
 
 ### Final Testing
 
-Release a beta for the website, given to people with various devices to check integrity and discover bugs.
 
-### User Comments
+#### User Comments
 
 * Capital letters on locations, and some incorrect spelling
 * Overall easy to navigate
@@ -169,7 +168,7 @@ Iphone 12
 
 The webpage responded and ran as expected across all the above devices.
 
-### Personal Testing
+#### Personal Testing
 
 * Checked each navigational link and confirmed they are working
 * Checked the form links and notice they do not work since being deployed.
@@ -179,6 +178,10 @@ I have used JigSaw w3c to validate my CSS, Passed all clear.
 
 I have used w3c html validator to validate my HTML, i have uncovered a few issues (shown below)
 and i have taken steps to fix them.
+
+![W3C-code-issues-landing](assets/Readme-assets/W3C-code-issues-landing.jpg "W3C-code-issues-landing")
+
+![W3C-code-issues-landing-fixed](assets/Readme-assets/W3C-code-issues-landing-fixed.jpg "W3C-code-issues-landing-fixed")
 
 I used lighthouse to make sure my website is in working order, below is my score for desktop:
 ![Lighthouse test desktop](assets/Readme-assets/Lighthouse-test-desktop.jpg "Lighthouse Test Desktop")
@@ -236,9 +239,11 @@ Simple page using a mix of the location page and landing page. simple text showi
 
 ## Issues
 
-### Known bugs
+### Known Bugs
 
-### fixed bugs
+To my best knowledge i have crunched down all bugs i have found
+
+### fixed Bugs
 
 * Odd blue lines hanging off fontawesome icons (solution: added Text-tranform: none)
 * Font awesome container offsets when set to display :inine; (rebuilt the footer fully)
