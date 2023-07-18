@@ -1,32 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Visit Kent</title> 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="assets/style.css" rel="stylesheet" type="text/css">
-  </head>
 
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Visit Kent</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
     <div id="nav-back"></div>
     <section>
         <div id="navbar">
-        <!--Logo-->
-        <a href="Landing-Page.html">
-            <div  id="logo-container">
-                <div id="logo"></div>
-            </div>
-        </a>
-        <!--Nav Bar-->
+            <!--Logo-->
+            <a href="index.html">
+                <div id="logo-container">
+                    <div id="logo"></div>
+                </div>
+            </a>
+            <!--Nav Bar-->
             <div class="container">
                 <nav class="navbar navbar-expand">
                     <div class=" navbar-collapse collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto" id="menu-container">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle small-screen link-hover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle small-screen link-hover" href="#" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Locations
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,10 +38,11 @@
                                 </div>
                             </li>
                             <li class="nav-item navspacing">
-                                <a class="nav-link small-screen link-hover" href="Landing-Page.html">Home</a>
+                                <a class="nav-link small-screen link-hover" href="index.html">Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link small-screen activesheet link-hover" href="Contact-us.html">Contact us</a>
+                                <a class="nav-link small-screen activesheet link-hover" href="Contact-us.html">Contact
+                                    us</a>
                             </li>
                         </ul>
                     </div>
@@ -50,40 +52,43 @@
     </section>
     <!--end of nav bar-->
     <!--start of form-->
-    <div class="location-title"><h1>Contact Us With Any Questions!!</h1></div>
+    <div class="location-title">
+        <h1>Contact Us With Any Questions!!</h1>
+    </div>
     <section id="form-image-outer">
         <div id="form-background">
-    <div id="form">
-        <h2>Your Details</h2>
-        <form action="form-success.html" method="get">
-            <label for="firstname" class="form-label"><strong>First Name:</strong></label>
-            <input Id="firstname" class="form-control" type="text" placeholder="First name" required>
-            <br>
-            <label for="surname" class="form-label"><strong>Surname:</strong></label>
-            <input id="surname" class="form-control" type="text" placeholder="Surname">
-            <br>
-            <label for="Email" class="form-label"><strong>Email:</strong></label>
-            <input id="Email" class="form-control" type="email" placeholder="Email" required>
-            <br>
-            <label For="agerange" class="form-label"><strong>Age:</strong></label>
-            <select id="agerange" class="form-control" name="agerange">
-                <option value="under-20">Under 20</option>
-                <option value="20">20-29</option>
-                <option value="30">30-39</option>
-                <option value="40">40-49</option>
-                <option value="50">50-59</option>
-                <option value="60+">60+</option>
-            </select>
-            <br>
-            <label for="Question"><strong>Questions:</strong></label>
-            <br>
-            <textarea id="Question" placeholder="Any Questions" class="form-control" cols="50" rows="5" required></textarea>
-            <br>
-            <button type="submit" class="btn btn-dark">Send Questions</button>
-            <input type="reset" value="Reset Form" class="btn btn-dark">
-        </form>
+            <div id="form">
+                <h2>Your Details</h2>
+                <form action="form-success.html" method="get">
+                    <label for="firstname" class="form-label"><strong>First Name:</strong></label>
+                    <input Id="firstname" class="form-control" type="text" placeholder="First name" required>
+                    <br>
+                    <label for="surname" class="form-label"><strong>Surname:</strong></label>
+                    <input id="surname" class="form-control" type="text" placeholder="Surname">
+                    <br>
+                    <label for="Email" class="form-label"><strong>Email:</strong></label>
+                    <input id="Email" class="form-control" type="email" placeholder="Email" required>
+                    <br>
+                    <label For="agerange" class="form-label"><strong>Age:</strong></label>
+                    <select id="agerange" class="form-control" name="agerange">
+                        <option value="under-20">Under 20</option>
+                        <option value="20">20-29</option>
+                        <option value="30">30-39</option>
+                        <option value="40">40-49</option>
+                        <option value="50">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                    <br>
+                    <label for="Question"><strong>Questions:</strong></label>
+                    <br>
+                    <textarea id="Question" placeholder="Any Questions" class="form-control" cols="50" rows="5"
+                        required></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-dark">Send Questions</button>
+                    <input type="reset" value="Reset Form" class="btn btn-dark">
+                </form>
+            </div>
         </div>
-    </div>
     </section>
     <!--End of form-->
     <!--Start of footer-->
@@ -119,12 +124,13 @@
         </div>
     </footer>
     <!--Bootstrap and fontawesome script-->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-            crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/d94f1f75f6.js" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d94f1f75f6.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
